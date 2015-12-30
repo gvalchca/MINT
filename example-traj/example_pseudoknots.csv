@@ -1,0 +1,4 @@
+nucleotides,VMD,% of frames,frame numbers
+ N|C:507-N|G:524,chain N and resid  507 ,1.0, 0->9
+ N|G:506-N|C:525,chain N and resid  506 ,1.0, 0->9
+ N|G:505-N|C:526,chain N and resid  505 ,0.9, 0 2->9

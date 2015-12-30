@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <rnastructML xmlns="http://hobit.sourceforge.net/xsds/20060201/rnastructML">
+            <rnastructure id=  " ./example/example.pdb "><sequence seqID="Sequence_1">  <freeSequence>GCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC</freeSequence>  </sequence> 
+ <structure>(((((......(.(((.....((....)).......))).))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>(((((......(.(((.....((....)).......))).))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>((.((......(((((.....((....)).......))))))).))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+ <structure>(((((......(((((.....((....)).......))))))))))</structure>
+</rnastructure> </rnastructML>

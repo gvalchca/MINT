@@ -1,0 +1,167 @@
+Running with parameters: 
+MINT_home = /home/staff/maciejj/Dropbox/MINT/MINT_0_0_1/mint
+Mode=Single
+OP_stacking_distance_cutoff=4.5
+chains_names=[]
+create_csvs=1
+cutoff=20.0
+cutoff_stacking=10.5
+file_name=./example/example.pdb
+force_field=AMBER
+h_bond_angle=150.0
+h_bond_atom=donor
+h_bond_l=3.5
+list_of_modified_nucs=data/unknown_modified.fa
+margin=0.8
+max_memory_GB=1.5
+only_analysis=0
+out_name=./example-single/example
+pairing_cutoff=0.1
+stride=1
+table_charges=/data/charges_and_VDW_modified.csv
+table_nucleotides=/data/nucleotides_modified.csv
+vdw_cutoff_stacking=-0.5
+vmd=0
+
+  46 nucleotides, sequence: 
+GUA CYT ADE CYT CYT GUA GUA CYT URA ADE ADE CYT URA CYT CYT GUA URA GUA CYT CYT ADE GUA CYT ADE GUA CYT CYT GUA CYT GUA GUA URA ADE ADE URA ADE CYT GUA GUA ADE GUA GUA GUA URA GUA CYT 
+Nucleotides statistics:
+GUA-> 16 known parameters
+ADE-> 9 known parameters
+URA-> 6 known parameters
+CYT-> 15 known parameters
+
+Helices: 
+1] N|G:500-N|C:503 -> N|G:542-N|C:545
+2] N|C:511-N|G:515 -> N|C:536-N|G:540
+3] N|G:521-N|C:522 -> N|G:527-N|C:528
+Helices vmd:
+1] chain N and resid 500 to 503  chain N and resid 542 to 545
+2] chain N and resid 511 to 515  chain N and resid 536 to 540
+3] chain N and resid 521 to 522  chain N and resid 527 to 528
+
+Pseudoknots:
+1] N|G:505-N|C:526
+2] N|G:506-N|C:525
+3] N|C:507-N|G:524
+
+Pseudoknots vmd:
+1] chain N and resid  505 526 
+2] chain N and resid  506 525 
+3] chain N and resid  507 524 
+
+
+Motifs:
+1]  1-7  N|C:503-N|G:542-N|G:541-N|G:540-N|C:511-N|A:510-N|A:509-N|U:508-N|C:507-N|G:506-N|G:505-N|C:504-N|C:503-
+2]  7-5  N|G:515-N|C:536-N|A:535-N|U:534-N|A:533-N|A:532-N|U:531-N|G:530-N|G:529-N|C:528-N|G:521-N|A:520-N|C:519-N|C:518-N|G:517-N|U:516-N|G:515-
+3]  4  N|C:522-N|G:527-N|C:526-N|C:525-N|G:524-N|A:523-N|C:522-
+
+Motifs vmd:
+1]  chain N and resid  503 542 541 540 511 510 509 508 507 506 505 504 503 
+2]  chain N and resid  515 536 535 534 533 532 531 530 529 528 521 520 519 518 517 516 515 
+3]  chain N and resid  522 527 526 525 524 523 522 
+
+
+WC Base pairs: 
+0] N|G:500/N|C:545  N2-H22-O2 angle: 172.77 distance: 3.05  | N1-H1-N3 angle: 156.53 distance: 2.97  | O6-H41-N4 angle: 174.36 distance: 2.84 WC/WC/3  Cis
+1] N|C:501/N|G:544  N4-H41-O6 angle: 170.89 distance: 2.96  | O2-H21-N2 angle: 159.26 distance: 2.94  | N3-H1-N1 angle: 163.94 distance: 2.94 WC/WC/3  Cis
+2] N|A:502/N|U:543  N6-H62-O4 angle: 167.82 distance: 2.67  | N1-H3-N3 angle: 156.88 distance: 3.06 WC/WC/2  Cis
+3] N|C:503/N|G:542  N4-H41-O6 angle: 165.52 distance: 2.92  | O2-H21-N2 angle: 161.18 distance: 2.9  | N3-H1-N1 angle: 172.35 distance: 2.91 WC/WC/3  Cis
+4] N|G:505/N|C:526  N2-H21-O2 angle: 154.84 distance: 3.21  | N1-H1-N3 angle: 162.08 distance: 2.88  | O6-H41-N4 angle: 167.46 distance: 2.71 WC/WC/3  Cis
+5] N|G:506/N|C:525  N2-H21-O2 angle: 158.24 distance: 2.86  | O6-H41-N4 angle: 160.57 distance: 2.92 WC/WC/2  Cis
+6] N|C:507/N|G:524  N4-H41-O6 angle: 152.98 distance: 3.08  | O2-H21-N2 angle: 150.74 distance: 2.82  | N3-H1-N1 angle: 175.28 distance: 2.96 WC/WC/3  Cis
+7] N|C:511/N|G:540  N4-H41-O6 angle: 173.73 distance: 2.98  | O2-H21-N2 angle: 169.67 distance: 2.82  | N3-H1-N1 angle: 169.66 distance: 2.97 WC/WC/3  Cis
+8] N|U:512/N|A:539  N3-H3-N1 angle: 155.43 distance: 3.26 WC/WC/1  Cis
+9] N|C:513/N|G:538  N4-H42-O6 angle: 163.58 distance: 2.64  | O2-H21-N2 angle: 169.72 distance: 2.99  | N3-H1-N1 angle: 170.15 distance: 2.86 WC/WC/3  Cis
+10] N|C:514/N|G:537  O2-H21-N2 angle: 166.23 distance: 2.78  | N3-H1-N1 angle: 168.99 distance: 2.85 WC/WC/2  Cis
+11] N|G:515/N|C:536  N2-H22-O2 angle: 159.47 distance: 2.87  | N1-H1-N3 angle: 160.93 distance: 2.82  | O6-H41-N4 angle: 175.71 distance: 2.76 WC/WC/3  Cis
+12] N|G:521/N|C:528  N2-H21-O2 angle: 162.32 distance: 2.81  | N1-H1-N3 angle: 158.28 distance: 2.99  | O6-H41-N4 angle: 165.44 distance: 2.9 WC/WC/3  Cis
+13] N|C:522/N|G:527  O2-H21-N2 angle: 162.18 distance: 2.74  | N3-H1-N1 angle: 173.81 distance: 2.92 WC/WC/2  Cis
+
+non-WC Base pairs: 
+0] N|C:503/N|A:510  O2'-H2'-N1 angle: 152.55 distance: 3.13 Sugar/WC/1  Trans
+1] N|C:504/N|G:541  O2-H21-N2 angle: 161.12 distance: 3.23 WC*Sugar/WC*Sugar/1  Cis
+2] N|U:508/N|A:509  O2-H62-N6 angle: 151.63 distance: 3.37 WC*Sugar/WC*Hoogsteen/1  Cis
+3] N|A:509/N|U:543  O2'-H2'-O2' angle: 163.73 distance: 2.84  | N3-H2'-O2' angle: 166.31 distance: 2.91 Sugar/Sugar/2  Cis
+4] N|C:511/N|U:534  O2'-H2'-O2 angle: 155.03 distance: 3.02 Sugar/WC*Sugar/1  Trans
+5] N|U:516/N|A:533  N3-H3-N7 angle: 161.06 distance: 3.04  | O2-H61-N6 angle: 151.22 distance: 3.19 WC/Hoogsteen/2  Trans
+6] N|C:519/N|G:529  N4-H42-O2' angle: 166.78 distance: 3.44 WC*Hoogsteen/Sugar/1  Trans
+7] N|A:520/N|G:529  N6-H62-N3 angle: 154.2 distance: 3.11 WC*Hoogsteen/Sugar/1  Cis
+8] N|A:520/N|A:533  N1-H62-N6 angle: 151.87 distance: 3.04 WC/WC*Hoogsteen/1  Trans
+9] N|A:523/N|C:525  O2'-H42-N4 angle: 163.18 distance: 2.89 Sugar/WC*Hoogsteen/1  Trans
+10] N|G:527/N|A:535  N2-H22-N3 angle: 172.73 distance: 3.27  | O2'-H2'-N1 angle: 172.93 distance: 2.69 Sugar/WC/2  Trans
+11] N|C:528/N|A:535  O2'-H2'-O2' angle: 155.29 distance: 2.92 Sugar/Sugar/1  Trans
+
+Dot-Bracket
+GCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC
+((((.......(((((.....((....)).......))))).))))
+ Modified nucleotides denoted by lower case letters
+
+
+Stacking pairs: qn1 n2     Coul     VDW    sum
+N|G:500 N|C:501(-5.62, -5.51, -11.12)
+N|C:501 N|A:502(4.08, -4.4, -0.31)
+N|C:501 N|C:545(8.57, -2.31, 6.26)
+N|A:502 N|C:503(7.69, -6.22, 1.47)
+N|A:502 N|G:544(4.06, -4.32, -0.27)
+N|C:503 N|C:504(2.63, -2.97, -0.33)
+N|C:503 N|U:543(1.5, -2.39, -0.89)
+N|C:504 N|A:510(2.6, -1.24, 1.36)
+N|C:504 N|C:511(0.13, -2.36, -2.23)
+N|C:504 N|G:542(1.39, -4.32, -2.92)
+N|G:505 N|G:506(5.23, -6.69, -1.46)
+N|G:505 N|A:535(5.08, -6.49, -1.41)
+N|G:506 N|C:507(-4.53, -5.54, -10.08)
+N|G:506 N|C:526(0.48, -3.08, -2.6)
+N|C:507 N|U:508(3.93, -4.83, -0.9)
+N|C:507 N|C:525(3.39, -0.54, 2.85)
+N|U:508 N|A:510(8.49, -0.63, 7.86)
+N|A:509 N|A:510(24.09, -5.2, 18.88)
+N|C:511 N|U:512(-1.89, -2.76, -4.64)
+N|C:511 N|G:541(2.48, -4.26, -1.78)
+N|U:512 N|C:513(-0.01, -3.87, -3.88)
+N|U:512 N|G:540(2.75, -1.79, 0.96)
+N|C:513 N|C:514(4.33, -3.73, 0.6)
+N|C:513 N|A:539(7.82, -3.03, 4.79)
+N|C:514 N|G:515(-4.31, -3.98, -8.3)
+N|C:514 N|G:538(3.55, -5.13, -1.58)
+N|G:515 N|U:516(2.61, -6.36, -3.75)
+N|G:515 N|G:537(2.17, -8.13, -5.95)
+N|G:515 N|G:538(1.67, -0.56, 1.11)
+N|U:516 N|G:517(1.28, -5.55, -4.27)
+N|U:516 N|A:520(5.66, -0.85, 4.81)
+N|U:516 N|C:536(2.53, -1.25, 1.28)
+N|G:517 N|C:519(-0.57, -0.71, -1.28)
+N|G:517 N|U:531(4.13, -2.06, 2.07)
+N|G:517 N|A:533(2.84, -2.48, 0.36)
+N|C:518 N|G:529(5.45, -5.55, -0.1)
+N|C:518 N|G:530(5.99, -6.24, -0.25)
+N|C:519 N|A:520(2.13, -5.98, -3.85)
+N|A:520 N|G:521(5.21, -5.14, 0.07)
+N|G:521 N|C:522(-4.46, -4.0, -8.46)
+N|G:521 N|G:529(-0.47, -5.23, -5.7)
+N|G:521 N|C:536(1.89, -0.52, 1.37)
+N|C:522 N|A:523(2.35, -4.3, -1.95)
+N|C:522 N|C:528(8.21, -2.85, 5.35)
+N|A:523 N|C:526(-3.8, -1.14, -4.94)
+N|A:523 N|G:527(8.69, -6.74, 1.95)
+N|G:524 N|C:525(-6.25, -6.1, -12.35)
+N|C:525 N|C:526(5.82, -4.35, 1.47)
+N|C:526 N|G:527(-0.89, -2.41, -3.3)
+N|G:527 N|C:528(-5.77, -5.7, -11.47)
+N|C:528 N|G:529(-3.13, -3.42, -6.55)
+N|A:533 N|C:536(6.21, -5.9, 0.31)
+N|C:536 N|G:537(2.68, -2.53, 0.15)
+N|G:537 N|G:538(6.26, -5.72, 0.54)
+N|G:538 N|A:539(0.87, -7.09, -6.22)
+N|A:539 N|G:540(10.64, -6.38, 4.26)
+N|A:539 N|G:541(5.63, -0.5, 5.13)
+N|G:540 N|G:541(7.53, -6.69, 0.83)
+N|G:541 N|G:542(5.4, -7.12, -1.72)
+N|G:542 N|U:543(2.01, -6.02, -4.02)
+N|U:543 N|G:544(2.71, -4.88, -2.18)
+N|G:544 N|C:545(-7.98, -6.09, -14.07)
+
+
+Stacking pi pairs
+

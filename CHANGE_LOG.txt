@@ -1,0 +1,34 @@
+
+## [0.0.2] - 2015-07-27
+### Added
+- creating TimeSeries not using universe.trajectory.timeseries
+### Changed
+### Removed
+### Fixed
+- problems with reading xtc
+
+## [0.0.1] - 2015-06-16
+### Added
+### Changed
+Default values of the hydrogen bond angle and distance parameters.
+h_bond_l:3.5
+h_bond_angle: 150
+### Removed
+### Fixed
+- problem with the nucleotide name:
+ Process Process-1:
+ Traceback (most recent call last):
+   File "/usr/lib64/python2.7/multiprocessing/process.py", line 258, in _bootstrap
+     self.run()
+   File "/usr/lib64/python2.7/multiprocessing/process.py", line 114, in run
+     self._target(*self._args, **self._kwargs)
+   File "/home/staff/fleon/MINT/MINT.py", line 963, in for_a_sub_traj
+     PARMS, TimeTable, N)
+   File "/home/staff/fleon/MINT/MINT.py", line 933, in single_frame_in_traj_analysis
+     megalist = measure_for_all(nucleotides, charges, PARMS, TimeTable, N)
+   File "/home/staff/fleon/MINT/MINT.py", line 367, in measure_for_all
+     if whether_not_too_far_simple(i, j, PARMS["cutoff"], TimeTable, N):
+   File "/home/staff/fleon/MINT/MINT.py", line 531, in whether_not_too_far_simple
+     coords.append(list(TimeTable[n["C1'"].get_full_id()][N]))
+ KeyError: ('1', 0, 'X', (' ', 1, ' '), ("C1'", ' '))
+

@@ -1,0 +1,41 @@
+1st nucleotide number,nucleotides,pair type,pair configuration,VMD,% of frames,frame numbers
+500,N|G:500/N|C:545,WC/WC,Cis,chain N and resid  500 545 ,1.0, 0->9
+501,N|C:501/N|G:544,WC/WC,Cis,chain N and resid  501 544 ,1.0, 0->9
+515,N|G:515/N|C:536,WC/WC,Cis,chain N and resid  515 536 ,1.0, 0->9
+507,N|C:507/N|G:524,WC/WC,Cis,chain N and resid  507 524 ,1.0, 0->9
+513,N|C:513/N|G:538,WC/WC,Cis,chain N and resid  513 538 ,1.0, 0->9
+511,N|C:511/N|G:540,WC/WC,Cis,chain N and resid  511 540 ,1.0, 0->9
+514,N|C:514/N|G:537,WC/WC,Cis,chain N and resid  514 537 ,1.0, 0->9
+521,N|G:521/N|C:528,WC/WC,Cis,chain N and resid  521 528 ,1.0, 0->9
+506,N|G:506/N|C:525,WC/WC,Cis,chain N and resid  506 525 ,1.0, 0->9
+504,N|C:504/N|G:541,WC/WC,Cis,chain N and resid  504 541 ,1.0, 0->9
+503,N|C:503/N|G:542,WC/WC,Cis,chain N and resid  503 542 ,1.0, 0->9
+523,N|A:523/N|C:525,Sugar/WC*Hoogsteen,Trans,chain N and resid  523 525 ,1.0, 0->9
+528,N|C:528/N|A:535,Sugar/Sugar,Trans,chain N and resid  528 535 ,1.0, 0->9
+522,N|C:522/N|G:527,WC/WC,Cis,chain N and resid  522 527 ,1.0, 0->9
+527,N|G:527/N|A:535,Sugar/WC,Trans,chain N and resid  527 535 ,0.9, 0->6 8->9
+516,N|U:516/N|A:533,WC/Hoogsteen,Trans,chain N and resid  516 533 ,0.9, 0 2->9
+505,N|G:505/N|C:526,WC/WC,Cis,chain N and resid  505 526 ,0.9, 0 2->9
+503,N|C:503/N|A:510,Sugar/WC,Trans,chain N and resid  503 510 ,0.9, 0->6 8->9
+520,N|A:520/N|A:533,WC/WC*Hoogsteen,Trans,chain N and resid  520 533 ,0.9, 0->3 5->9
+502,N|A:502/N|U:543,WC/WC,Cis,chain N and resid  502 543 ,0.9, 0->5 7->9
+509,N|A:509/N|U:543,Sugar/Sugar,Cis,chain N and resid  509 543 ,0.8, 0->4 7->9
+512,N|U:512/N|A:539,WC/WC,Cis,chain N and resid  512 539 ,0.8, 1 3->9
+523,N|A:523/N|C:526,Sugar/WC*Hoogsteen,Trans,chain N and resid  523 526 ,0.7, 0->6
+510,N|A:510/N|G:542,Sugar/Sugar,Cis,chain N and resid  510 542 ,0.6, 0->1 4->5 7->8
+519,N|C:519/N|G:529,WC*Hoogsteen/Sugar,Trans,chain N and resid  519 529 ,0.6, 0->2 4 8->9
+516,N|U:516/N|C:519,WC*Sugar/WC*Hoogsteen,Cis,chain N and resid  516 519 ,0.5, 1 3 6->8
+520,N|A:520/N|G:529,Hoogsteen/Sugar,Cis,chain N and resid  520 529 ,0.5, 2 5->7 9
+516,N|U:516/N|C:519,Sugar/WC,Cis,chain N and resid  516 519 ,0.4, 2 4->5 9
+533,N|A:533/N|A:535,Sugar/Sugar,Trans,chain N and resid  533 535 ,0.4, 1 4->5 9
+521,N|G:521/N|C:536,Sugar/Sugar,Cis,chain N and resid  521 536 ,0.4, 0 5 7 9
+520,N|A:520/N|G:529,WC*Hoogsteen/Sugar,Cis,chain N and resid  520 529 ,0.4, 0->1 3->4
+523,N|A:523/N|G:524,Sugar/Hoogsteen,Trans,chain N and resid  523 524 ,0.3, 2 4->5
+508,N|U:508/N|A:509,WC*Sugar/WC*Hoogsteen,Cis,chain N and resid  508 509 ,0.1, 4
+517,N|G:517/N|G:529,Sugar/Sugar,Trans,chain N and resid  517 529 ,0.1, 2
+520,N|A:520/N|C:536,WC/Sugar,Trans,chain N and resid  520 536 ,0.1, 9
+502,N|A:502/N|U:543,WC*Hoogsteen/WC*Hoogsteen,Cis,chain N and resid  502 543 ,0.1, 6
+505,N|G:505/N|C:526,WC*Sugar/WC*Sugar,Cis,chain N and resid  505 526 ,0.1, 1
+510,N|A:510/N|U:543,Sugar/WC*Sugar,Cis,chain N and resid  510 543 ,0.1, 3
+520,N|A:520/N|G:529,Hoogsteen/WC*Sugar,Cis,chain N and resid  520 529 ,0.1, 8
+527,N|G:527/N|A:535,Sugar/Sugar,Trans,chain N and resid  527 535 ,0.1, 7

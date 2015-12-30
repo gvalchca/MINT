@@ -1,0 +1,10 @@
+;WC donor;WC acceptor;Hoogsteen donor;Hoogsteen acceptor;Sugar donor;Sugar acceptor
+G;N2 N1 ; O6 ;;N7 O6  ;N2 O2' ;N3 O2'  
+C;N4 ; O2 N3;C6 N4  ;;O2' ;O2 O2'
+A;N6;C6 N1 C2  ;N6 ;N7;C2 O2';N3 O2'    
+U;N3 ;O4 O2 ; C5;O4 ;O2' ;O2 O2'
+;;;;;;
+GPN;N2 N1 ;O6 ;;N7 O6  ;N2 ;N3
+CPN;N4 ;O2 N3;C6 N4  ;;;O2
+APN;N6;C6 N1 C2  ;N6 ;N7;C2;N3
+TPN;N3 ;O4 O2 ;C7;C5 O4 C7;;O2
