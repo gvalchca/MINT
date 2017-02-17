@@ -129,7 +129,7 @@ def read_in_mint_pickles(ddir, fname):
 
 def run():
     PARMS = MINT.inside_read_in_parms()
-    PARMS["OUT_FILE"] = open(PARMS["out_name"]+"_hbonds_log.txt", "w")
+    PARMS["OUT_FILE"] = open(PARMS["working_dir"]+"/"+PARMS["out_name"]+"_hbonds_log.txt", "w")
     nucleotides = MINT.get_nucleic_from_pdb(PARMS)
     charges = MINT.read_in_charges(nucleotides, PARMS)
     pickles = {}
@@ -151,7 +151,7 @@ def run():
                              PARMS["working_dir"]+"/"+PARMS["out_name"]+".csv")
     else:
         for filename in PARMS["files_dcd"]:
-            filename_and_dir = PARMS["working_dir"] + '/' + filename
+            filename_and_dir = PARMS["working_dir"] + filename
             pickles[filename] = run_for_a_trajectory(PARMS, filename_and_dir,
                                                      nucleotides, charges)
         put_together(pickles, PARMS["working_dir"] + PARMS["out_name"]+".csv",
