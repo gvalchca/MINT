@@ -1,5 +1,5 @@
 Running with parameters: 
-MINT_home = /home/staff/maciejj/Dropbox/MINT/MINT_0_0_1/mint
+MINT_home = /home/maciej/mint-fork/MINT
 Mode=Traj
 OP_stacking_distance_cutoff=4.5
 chains_names=[]
