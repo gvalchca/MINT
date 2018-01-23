@@ -213,6 +213,7 @@ def read_in_charges(nucleotides, PARMS):
                 d[i[0]+"_"+i[1]] = [float(i[column[0]]), float(i[column[1]]),
                                     float(i[column[2]])]
         except Exception:
+            
             print "We do not have data for ", i[0], " in ",
             print PARMS["force_field"], " force field."
             suggested = [i for i in ["AMBER", "CHARMM"]
@@ -475,13 +476,15 @@ def nucleotides_conformation(i, j, TimeTable, N):
             atoms_coords.append(TimeTable[n["C1'"].get_full_id()][N])
         elif if_exists(n, "C1*"):
             atoms_coords.append(TimeTable[n["C1*"].get_full_id()][N])
-        elif if_exists(n, "C8'"):
-            atoms_coords.append(TimeTable[n["C8'"].get_full_id()][N])
-        elif if_exists(n, "N1*"):
-            atoms_coords.append(TimeTable[n["N1*"].get_full_id()][N])
+        elif if_exists(n, "C8*"): #PNA in Amber
+            atoms_coords.append(TimeTable[n["C8*"].get_full_id()][N])
+#        elif if_exists(n, "N1*"):
+#            atoms_coords.append(TimeTable[n["N1*"].get_full_id()][N])
+
+        elif if_exists(n, "C4'"): #PNA in CHARMM
+            atoms_coords.append(TimeTable[n["C4'"].get_full_id()][N])
         else:
             print "No c1/n1 in", n
-
         if if_exists(n, "N9"):
             atoms_coords.append(TimeTable[n["N9"].get_full_id()][N])
         elif if_exists(n, "N1"):
@@ -536,10 +539,14 @@ def whether_not_too_far_simple(i, j, cutoff, TimeTable, N):
             coords.append(list(TimeTable[n["C1'"].get_full_id()][N]))
         elif if_exists(n, "C1*"):
             coords.append(list(TimeTable[n["C1*"].get_full_id()][N]))
-        elif if_exists(n, "C8'"):
-            coords.append(list(TimeTable[n["C8'"].get_full_id()][N]))
-        elif if_exists(n, "N1*"):
-            coords.append(list(TimeTable[n["N1*"].get_full_id()][N]))
+        elif if_exists(n, "C8*"): #PNA in Amber
+            coords.append(list(TimeTable[n["C8*"].get_full_id()][N]))
+        elif if_exists(n, "C4'"): #PNA in CHARMM
+            coords.append(list(TimeTable[n["C4'"].get_full_id()][N]))
+#        elif if_exists(n, "N1*"):
+#            coords.append(list(TimeTable[n["N1*"].get_full_id()][N]))
+#        elif if_exists(n, "N4'"):
+#            coords.append(list(TimeTable[n["N4'"].get_full_id()][N]))
         else:
             return False
     if dist(coords[0], coords[1]) < cutoff:
@@ -598,7 +605,7 @@ def what_site_atom(res_name, atom, table):
     return sites
 
 
-def atom_coords(res, at, TimeTable, N):
+def atom_coords(res, at, TimeTable, N, PARMS):
     at = at.replace(" ", "")
     try:
         return TimeTable[res[at].get_full_id()][N]
@@ -611,9 +618,16 @@ def atom_coords(res, at, TimeTable, N):
                 at = at + "'"
                 return TimeTable[res[at].get_full_id()][N]
             except Exception:
-                print "There is no atom ", at, " in resid :",
-                print res.get_resname(), RS.resid_description(res)
-                return False
+		#If and elif below are an ugly solution for two different names for the methyl C in PNA TPN residue in Amber and CHARMM.
+		#Will work probably also for the DNA Thymine
+    		if PARMS["force_field"] == "AMBER" and "C5M" in at:
+			return False
+    	        elif PARMS["force_field"] == "CHARMM" and "C7" in at:
+                        return False
+                else:
+                        print "There is no atom ", at, " in resid :",
+                        print res.get_resname(), RS.resid_description(res)
+                        return False
 
 
 # Function detecting all possible H-Bonds between two residues
@@ -625,9 +639,9 @@ def detect_H_bonds(res1, res2, table, h_bond_l, h_bond_angle,
         for at_acceptor in donor_acceptor_list(res2, "a",
                                                table, if_modified(res2, PARMS)):
             for hydrogen in hydrogens_names_for_donor_name(res1, at_donor):
-                tmp = if_hbond(atom_coords(res1, at_donor, TimeTable, N),
+                tmp = if_hbond(atom_coords(res1, at_donor, TimeTable, N, PARMS),
                                TimeTable[res1[hydrogen].get_full_id()][N],
-                               atom_coords(res2, at_acceptor, TimeTable, N),
+                               atom_coords(res2, at_acceptor, TimeTable, N, PARMS),
                                h_bond_l, h_bond_angle, PARMS)
                 Hbonds.append([at_donor, hydrogen, at_acceptor, tmp])
 
@@ -636,9 +650,9 @@ def detect_H_bonds(res1, res2, table, h_bond_l, h_bond_angle,
         for at_acceptor in donor_acceptor_list(res1, "a",
                                                table, if_modified(res1, PARMS)):
             for hydrogen in hydrogens_names_for_donor_name(res2, at_donor):
-                tmp = if_hbond(atom_coords(res2, at_donor, TimeTable, N),
+                tmp = if_hbond(atom_coords(res2, at_donor, TimeTable, N, PARMS),
                                TimeTable[res2[hydrogen].get_full_id()][N],
-                               atom_coords(res1, at_acceptor, TimeTable, N),
+                               atom_coords(res1, at_acceptor, TimeTable, N, PARMS),
                                h_bond_l, h_bond_angle, PARMS)
                 Hbonds.append([at_acceptor, hydrogen, at_donor, tmp])
     return Hbonds
@@ -1154,6 +1168,7 @@ def trajectories(PARMS):
         frame = frames[key]
         out_file_text += "\nframe number " + str(key) + "\n" + frame[2] + "\n"
         for i in ["arches", "dot_bracket", "trajectory"]:
+#            print frame[1][i]
             LISTS[i][key] = frame[1][i]
         for i in ["translated_nucleotides", "stacking_pi"]:
             LISTS[i][key] = frame[0][i]
