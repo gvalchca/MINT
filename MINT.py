@@ -214,7 +214,7 @@ def read_in_charges(nucleotides, PARMS):
                                     float(i[column[2]])]
         except Exception:
             
-            print "We do not have data for ", i[0], " in ",
+            print "We do not have data for ", i[0], " in ", i, " in"
             print PARMS["force_field"], " force field."
             suggested = [i for i in ["AMBER", "CHARMM"]
                          if i not in [PARMS["force_field"]]]
@@ -733,7 +733,12 @@ def hydrogens_names_for_donor_name(res, at_donor):
 def donor_acceptor_list(resid, da, table, modify):
     if not modify:
         n = names(resid.get_resname())
-        t = table[[i[0] for i in table].index(n)]
+	print "name ", n, "resid ", resid
+	
+#	for el in table:
+#		print el[0]
+        
+	t = table[[i[0] for i in table].index(n)]
         tmp = ""
         if da == "a":
             for i in a:
@@ -780,7 +785,7 @@ def names(resname):
         return resname[0]
     elif resname in ["DG5", "DG3", "DA5", "DA3", "DC3",
                      "DC5", "DU5", "DU3", "DT5", "DT3"]:
-        return resname[:1]
+        return resname[:2]
     elif (resname.startswith("R") or
           resname.startswith("L")):
         return resname[1]
