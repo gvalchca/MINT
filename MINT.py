@@ -733,11 +733,7 @@ def hydrogens_names_for_donor_name(res, at_donor):
 def donor_acceptor_list(resid, da, table, modify):
     if not modify:
         n = names(resid.get_resname())
-	print "name ", n, "resid ", resid
 	
-#	for el in table:
-#		print el[0]
-        
 	t = table[[i[0] for i in table].index(n)]
         tmp = ""
         if da == "a":
