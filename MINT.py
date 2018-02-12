@@ -76,7 +76,7 @@ NUCLEOTIDES = ["A", "U", "C", "G", "ADE", "URA", "CYT", "GUA", "RA", "RG",
                "A3", "C3", "C5", "U5", "U3", "T5", "T3", "DG5", "DG3", "DA5",
                "DA3", "DC3", "DC5", "DU5", "DU3", "DT5", "DT3", "LG5", "LG3",
                "LA5", "LA3", "LC3", "LC5", "LU5", "LU3", "LT5", "LT3", "LA",
-               "LC", "LT", "LG", "LU", "TPN", "GPN", "CPN", "APN"]
+               "LC", "LT", "LG", "LU", "TPN", "GPN", "CPN", "APN", "THY"]
 
 a = [NUCLEOTIDES.extend([i+"5", i+"3"]) for i in ["RA", "RG", "RC", "RU"]]
 
@@ -205,7 +205,7 @@ def read_in_charges(nucleotides, PARMS):
     elif PARMS["force_field"] == "MY_OWN":
         column = [4, 9, 10]
     d = {}
-    nuc = list(set([names(n.get_resname()) for n in nucleotides]))
+    nuc = list(set([names(n.get_resname(),PARMS) for n in nucleotides]))
     for i in l:
         # charge, vdw_radius, vdw_depth
         try:
@@ -224,9 +224,9 @@ def read_in_charges(nucleotides, PARMS):
     return d
 
 
-def coords_and_charges_and_vdw(nuc, charges, TimeTable, N):
+def coords_and_charges_and_vdw(nuc, charges, TimeTable, N, PARMS):
     out = {}
-    name = names(nuc.get_resname())
+    name = names(nuc.get_resname(),PARMS)
     atoms_names = [i.split("_")[1] for i in charges.keys()
                    if (i.split("_")[0] == name)]
     for at in atoms_names:
@@ -409,8 +409,8 @@ def measure_for_all(nucleotides, charges, PARMS, TimeTable, N):
                         non_spec_clas.append("")
                         non_spec_spec.append("Large margin")
                 # stacking
-                ccvi = coords_and_charges_and_vdw(i, charges, TimeTable, N)
-                ccvj = coords_and_charges_and_vdw(j, charges, TimeTable, N)
+                ccvi = coords_and_charges_and_vdw(i, charges, TimeTable, N, PARMS)
+                ccvj = coords_and_charges_and_vdw(j, charges, TimeTable, N, PARMS)
                 if (i != j and not if_a_WCWC_pair and
                     whether_not_too_far_simple(i, j, PARMS["cutoff_stacking"],
                                                TimeTable, N)):
@@ -555,7 +555,7 @@ def whether_not_too_far_simple(i, j, cutoff, TimeTable, N):
 
 
 def purine_or_pyrimidyne(nuc):
-    if names(nuc.get_resname()) in ["A", "G"]:
+    if names(nuc.get_resname(),PARMS) in ["A", "G"]:
         return "purine"
     else:
         return "pyrimidyne"
@@ -581,7 +581,7 @@ def classify_list_of_atoms(res_name, atoms, table, PARMS):
         modi = True
         res_name = check_origin(res_name.strip(), PARMS)
     for i in atoms:
-        a = what_site_atom(res_name, i, table)
+        a = what_site_atom(res_name, i, table,PARMS)
         if a == [] and modi:
             a = ["Modified"]
         tmp.append(a)
@@ -594,8 +594,8 @@ def classify_list_of_atoms(res_name, atoms, table, PARMS):
         return "*".join(tmp[0])
 
 
-def what_site_atom(res_name, atom, table):
-    row = table[[i[0] for i in table].index(names(res_name))]
+def what_site_atom(res_name, atom, table,PARMS):
+    row = table[[i[0] for i in table].index(names(res_name,PARMS))]
     sites = []
     for i in range(0, len(row)):
         if atom in row[i].split():
@@ -635,9 +635,9 @@ def detect_H_bonds(res1, res2, table, h_bond_l, h_bond_angle,
                    PARMS, TimeTable, N):
     Hbonds = []
     for at_donor in donor_acceptor_list(res1, "d", table, if_modified(res1,
-                                                                      PARMS)):
+                                                                      PARMS),PARMS):
         for at_acceptor in donor_acceptor_list(res2, "a",
-                                               table, if_modified(res2, PARMS)):
+                                               table, if_modified(res2, PARMS),PARMS):
             for hydrogen in hydrogens_names_for_donor_name(res1, at_donor):
                 tmp = if_hbond(atom_coords(res1, at_donor, TimeTable, N, PARMS),
                                TimeTable[res1[hydrogen].get_full_id()][N],
@@ -646,9 +646,9 @@ def detect_H_bonds(res1, res2, table, h_bond_l, h_bond_angle,
                 Hbonds.append([at_donor, hydrogen, at_acceptor, tmp])
 
     for at_donor in donor_acceptor_list(res2, "d", table, if_modified(res2,
-                                                                      PARMS)):
+                                                                      PARMS),PARMS):
         for at_acceptor in donor_acceptor_list(res1, "a",
-                                               table, if_modified(res1, PARMS)):
+                                               table, if_modified(res1, PARMS),PARMS):
             for hydrogen in hydrogens_names_for_donor_name(res2, at_donor):
                 tmp = if_hbond(atom_coords(res2, at_donor, TimeTable, N, PARMS),
                                TimeTable[res2[hydrogen].get_full_id()][N],
@@ -730,9 +730,9 @@ def hydrogens_names_for_donor_name(res, at_donor):
 
 
 # function gives list of atoms  - acceptors or donors
-def donor_acceptor_list(resid, da, table, modify):
+def donor_acceptor_list(resid, da, table, modify,PARMS):
     if not modify:
-        n = names(resid.get_resname())
+        n = names(resid.get_resname(),PARMS)
 	
 	t = table[[i[0] for i in table].index(n)]
         tmp = ""
@@ -770,7 +770,7 @@ def number_first(s):
 
 
 # changing name for residue
-def names(resname):
+def names(resname,PARMS):
     resname = resname.replace(" ", "")
     if resname in ["G", "U", "A", "C"]:
         return resname
@@ -778,10 +778,15 @@ def names(resname):
                      "G5", "G3", "A5", "A3", "C3",
                      "C5", "U5", "U3", "T5", "T3",
                      ""]:
-        return resname[0]
+        if PARMS["all_nucs_DNA"] == 1:
+            return "D"+resname[0]
+	else:
+            return resname[0]
     elif resname in ["DG5", "DG3", "DA5", "DA3", "DC3",
                      "DC5", "DU5", "DU3", "DT5", "DT3"]:
         return resname[:2]
+    elif resname in ["THY"]:
+	return "DT"
     elif (resname.startswith("R") or
           resname.startswith("L")):
         return resname[1]
