@@ -92,7 +92,7 @@ def check(parms, defined_parameters):
     if "all_nucs_DNA" not in parms.keys() or parms["all_nucs_DNA"] not in [0, 1]:
         parms["all_nucs_DNA"] = 0
     if  parms["all_nucs_DNA"] == 1:
-	print "all_nucs_DNA set to 1. Nucleotides with standard names: A,C,G,RA,RC,RG,ADE,CYT,GUA, etc. wil be treated as RNA not DNA as usually."
+	print "all_nucs_DNA set to 1. Nucleotides with standard names: A,C,G,RA,RC,RG,ADE,CYT,GUA, etc. wil be treated as DNA not RNA as usually."
 
 
     if (parms["Mode"] == "NNM" and
