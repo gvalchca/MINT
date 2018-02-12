@@ -32,7 +32,8 @@ from wand.image import Image
 
 
 def avg(max1, min2):
-    return max1-((abs(max1)+abs(min2))/2)
+#    return max1-((abs(max1)+abs(min2))/2)
+    return max1- ((abs(max1 -min2))/2)
 
 
 def run(parms):

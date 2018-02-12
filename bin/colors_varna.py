@@ -61,7 +61,7 @@ def run(parms):
 
     for k in ["WC", "D", "T"]:
         cc.append(c1.replace("mn", str(min(dd[k]))).
-                  replace("mx", str(max(dd[k]))).
+                  replace("mx", str(float(max(dd[k])))).
                   replace("av", str(avg(max(dd[k]), min(dd[k])))))
 
     for k in ["S", "C", "V"]:
