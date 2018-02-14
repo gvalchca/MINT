@@ -1064,10 +1064,10 @@ def ReadInTrajectory(nucleotides, universe, PARMS):
             atname = at.get_id()
             full_id = at.get_full_id()
             desc = exact_description(at, rnum, segid, resname, atname)
-            atoms = universe.selectAtoms(desc)
+            atoms = universe.select_atoms(desc)
             if len(atoms) == 0:
                 desc = "resid "+rnum
-                tmp = [n for n in universe.selectAtoms(desc)
+                tmp = [n for n in universe.select_atoms(desc)
                        if (n.name == atname) and (n.resname == resname)]
                 atoms = MDAnalysis.core.AtomGroup.AtomGroup(tmp)
 
