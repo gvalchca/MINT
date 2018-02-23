@@ -212,7 +212,8 @@ keyword:option # comment
 
 
 \subsection{Analysing the DNA versus RNA structures}
-{\tt MINT} includes necessary parameters for analysing both DNA and RNA molecules. {\tt MINT} distinguishes the DNA molecules by the names of the residues in the input PDB file, it expects the DNA nucleotides to be named: Adenine: DA, Guanine: DG, Cytosine: DC, Thymine: DT. Other nucleotides will be treated as RNA or derivatives. 
+{\tt MINT} includes necessary parameters for analysing both DNA and RNA molecules. By default {\tt MINT} distinguishes the DNA molecules by the names of the residues in the input PDB file, it expects the DNA nucleotides to be named: Adenine: DA, Guanine: DG, Cytosine: DC, Thymine: DT. Other nucleotides will be treated as RNA or derivatives. 
+However, with the option {\tt all\_nucs\_DNA: 1} it's possible to force MINT to treat all standard nucleotides as DNA. 
 
 \subsection{Parameters specified in the {\tt CONFIG.MINT} configuration file}
 \begin{itemize}
@@ -247,8 +248,9 @@ Default file {\tt ./data/charges\_and\_VDW\_modified.csv} is stored in the {\tt 
 %\item {\tt pdb\_list} -- [string] list of the PDB codes in line separated by space. For each {\tt MINT} will download the structure from the PDB database, unpack, protonate using the {\tt reduce} program~\cite{Word1999a} and perform the analysis in a single frame mode. Every analysis will be automatically located in a separate directory. 
 \item {\tt create\_csvs}  -- [1/0] if 1, MINT will create separate csv file for each sheet present in the {\tt \_MINT.xls} output file. Only nonempty sheets and files are made. When analyzing very long trajectories {\tt MINT} may produce csv files, even if the parameter is set to 0. This is related to the limitation of the .xls file format. In such case there will be a reference in the .xls file to see the .csv files.
 \item {\tt pairing\_cutoff} -- [0.0 -- 1.0] the minimal portion of the conformations (part of the frames) from the trajectory where pair must be present in order to be incorporated into the {\tt pairing} table. Default is~{\tt 0.1}.
+\item {\tt all\_nucs\_DNA} -- [1/0] if 1, MINT will treat all standard nuceotides as DNA instead od RNA. Default is~{\tt 0}.
+\item {\tt write\_nucs\_timeseries} -- [1/0] if 1, MINT will save hydrogen bonds and stacking interaction analysis vs time in csv files. Requires installation of additional {\tt python} library: {\tt pandas}. Default is~{\tt 0}.
 \end{itemize}
-
 
 
 \subsection{Example} \label{Example_sec}
@@ -400,6 +402,10 @@ The {\tt nucleotide\_characteristics} sheet is a table enlisting all nucleotides
 In the case of the trajectory analyze, columns described above contains average numbers and are followed by the columns with the values of standard deviation.
 Below there is an example of the {\tt nucleotide\_characteristics} table.
 
+\subsection{Timeseries} 
+Not present by default (see {\tt write\_nucs\_timeseries} parameter in configuration file). 
+6 CSV files containing the data that is used to construct the {\tt nucleotide\_characteristics} table described above: {\tt Hbonds-WC}, {\tt Hbonds-non-WC}, {\tt Hbonds-total}, {\tt Stacking-VDW}, {\tt Stacking-Coulomb} and {\tt Stacking-total}. In each file, every column represent data for a single nucleotide.
+
 \begin{table}[!htbp]
 \begin{center}
 \resizebox{!}{1.01\textheight}{\rotatebox{90}{%
@@ -539,6 +545,7 @@ To analyze the structures we have defined a list of possible acceptors and donor
 {\tt MINT} checks all the donors against all acceptors in all possible pairs of all nucleotides in the molecule. In order to decrease the computational time, we assume that the partner for a given nucleotide can be found only among its closest neighbors. The exact distance is defined by the user in the {\tt cutoff} parameter. Knowing the atoms creating hydrogen bonds, the program  determines the interacting edges and classify the basepair.
 
 Note that we use the edge-to-edge classification, instead of the concept of the canonical base pairs, to unambiguously and consistently describe all possible geometric pairs that may, even transiently, occur in a trajectory.
+The pair is classified as WC-WC if both nucleotides make hydrogen bonds with the WC edges. If there is only one bond between the nucleotides, the pair will be classified as WC-WC only if edges in both nucleotides can be unambigously diefined. For example if at least one of the interacting atoms is located on the "corner" between two edges (see: \ref{Edges}) the pair will be classified as non-WC-WC. If there are more than one hydrogen bonds between nucleotides than the edges are clearly defined and pair classification is straighforward. 
 
 
 \subsubsection{Modified nucleotides}
