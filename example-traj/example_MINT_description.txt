@@ -1,7 +1,8 @@
 Running with parameters: 
-MINT_home = /home/staff/maciejj/Dropbox/MINT/MINT_0_0_1/mint
+MINT_home = /home/maciej/mint-fork/MINT
 Mode=Traj
 OP_stacking_distance_cutoff=4.5
+all_nucs_DNA=0
 chains_names=[]
 create_csvs=1
 cutoff=20.0
@@ -27,6 +28,7 @@ threads=4
 time_cutoff=0.02
 vdw_cutoff_stacking=-0.5
 vmd=0
+write_nucs_timeseries=1
 
   46 nucleotides, sequence: 
 GUA CYT ADE CYT CYT GUA GUA CYT URA ADE ADE CYT URA CYT CYT GUA URA GUA CYT CYT ADE GUA CYT ADE GUA CYT CYT GUA CYT GUA GUA URA ADE ADE URA ADE CYT GUA GUA ADE GUA GUA GUA URA GUA CYT 
@@ -551,7 +553,7 @@ N|U:508 N|A:509(8.86, -0.77, 8.09)
 N|A:509 N|A:510(26.68, -3.89, 22.79)
 N|A:509 N|G:544(1.72, -0.59, 1.13)
 N|A:510 N|G:542(-4.83, -1.07, -5.9)
-N|C:511 N|U:512(1.5, -4.68, -3.17)
+N|C:511 N|U:512(1.51, -4.68, -3.17)
 N|C:511 N|U:534(-2.15, -0.52, -2.67)
 N|C:511 N|G:541(0.72, -2.88, -2.15)
 N|U:512 N|C:513(0.21, -3.63, -3.42)
@@ -638,7 +640,7 @@ WC Base pairs:
 0] N|G:500/N|C:545  N2-H22-O2 angle: 165.03 distance: 2.67  | N1-H1-N3 angle: 164.47 distance: 2.97  | O6-H42-N4 angle: 156.38 distance: 2.98 WC/WC/3  Cis
 1] N|C:501/N|G:544  O2-H21-N2 angle: 166.8 distance: 2.92  | N3-H1-N1 angle: 162.99 distance: 2.92 WC/WC/2  Cis
 2] N|A:502/N|U:543  N6-H61-O4 angle: 160.27 distance: 2.93  | N1-H3-N3 angle: 155.48 distance: 3.4 WC/WC/2  Cis
-3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.5 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis
+3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.51 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis
 4] N|C:504/N|G:541  O2-H21-N2 angle: 165.67 distance: 2.88  | N3-H1-N1 angle: 161.86 distance: 2.96 WC/WC/2  Cis
 5] N|G:505/N|C:526  N2-H21-O2 angle: 163.51 distance: 3.06  | N1-H1-N3 angle: 153.27 distance: 2.98  | O6-H41-N4 angle: 163.25 distance: 2.86 WC/WC/3  Cis
 6] N|G:506/N|C:525  N2-H21-O2 angle: 162.97 distance: 2.92  | N1-H1-N3 angle: 154.12 distance: 2.98  | O6-H41-N4 angle: 177.54 distance: 2.77 WC/WC/3  Cis

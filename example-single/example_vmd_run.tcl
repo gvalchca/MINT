@@ -1,4 +1,4 @@
-mol load pdb /home/staff/maciejj/Dropbox/MINT/MINT_0_0_1/mint/example/example.pdb
+mol load pdb /home/maciej/mint-fork/MINT/example/example.pdb
 mol delrep 0 top
 mol rep Lines
 mol color colorID 2

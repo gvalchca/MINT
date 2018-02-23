@@ -1,0 +1,55 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Citing MINT}{4}{subsection.1.1}
+\contentsline {section}{\numberline {2}Quick reference}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}What can {\tt MINT} do?}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}What do you need to run {\tt MINT}?}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Definitions}{6}{subsection.2.3}
+\contentsline {section}{\numberline {3}Installation}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Required external python packages}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}MINT}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Running {\tt MINT}}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Analysing the DNA versus RNA structures}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Parameters specified in the {\tt CONFIG.MINT} configuration file}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Example}{10}{subsection.4.3}
+\contentsline {section}{\numberline {5}Output files}{11}{section.5}
+\contentsline {subsection}{\numberline {5.1}description.txt}{12}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}MINT.xls}{12}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Pairs}{12}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Pairing}{13}{subsubsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.3}Secondary structure motifs}{13}{subsubsection.5.2.3}
+\contentsline {subsubsection}{\numberline {5.2.4}{Stacking}}{13}{subsubsection.5.2.4}
+\contentsline {subsubsection}{\numberline {5.2.5}{Pi interactions}}{15}{subsubsection.5.2.5}
+\contentsline {subsubsection}{\numberline {5.2.6}Nucleotides characteristics}{15}{subsubsection.5.2.6}
+\contentsline {subsection}{\numberline {5.3}Timeseries}{15}{subsection.5.3}
+\contentsline {subsubsection}{\numberline {5.3.1}Motifs clusters}{17}{subsubsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.2}Average motifs}{17}{subsubsection.5.3.2}
+\contentsline {subsection}{\numberline {5.4}Dot bracket}{18}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Secondary structure drawings}{18}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Inputs for external visualization tools}{18}{subsection.5.6}
+\contentsline {section}{\numberline {6}Methods}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Workflow}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Loading the DNA or RNA conformations}{20}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Calculating physico-chemical features}{20}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Hydrogen bonding}{20}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Donors and acceptors}{20}{subsubsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.3}Modified nucleotides}{22}{subsubsection.6.3.3}
+\contentsline {subsubsection}{\numberline {6.3.4}Geometric isomerism of base pairs}{23}{subsubsection.6.3.4}
+\contentsline {subsubsection}{\numberline {6.3.5}Stacking}{24}{subsubsection.6.3.5}
+\contentsline {subsubsection}{\numberline {6.3.6}Ion-$\Pi $ interaction between a nucleobase and phosphate oxygen}{25}{subsubsection.6.3.6}
+\contentsline {subsubsection}{\numberline {6.3.7}Representation of RNA motifs}{26}{subsubsection.6.3.7}
+\contentsline {paragraph}{Pseudo knots}{27}{section*.2}
+\contentsline {paragraph}{The RNA motif}{30}{section*.3}
+\contentsline {subsubsection}{\numberline {6.3.8}Motif-search algorithm}{30}{subsubsection.6.3.8}
+\contentsline {section}{\numberline {7}Analysis of trajectories or many RNA/DNA conformations}{31}{section.7}
+\contentsline {subsection}{\numberline {7.1}Clustering}{31}{subsection.7.1}
+\contentsline {section}{\numberline {8}Visualization}{34}{section.8}
+\contentsline {subsection}{\numberline {8.1}Representing motifs on the tertiary structure}{34}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Representing hydrogen bonding and stacking on the tertiary structure}{35}{subsection.8.2}
+\contentsline {paragraph}{VMD}{36}{section*.4}
+\contentsline {paragraph}{Chimera}{39}{section*.5}
+\contentsline {subsection}{\numberline {8.3}Representing secondary structure changes}{41}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Correlations}{43}{subsection.8.4}
+\contentsline {section}{\numberline {9}Appendices}{44}{section.9}
+\contentsline {subsection}{\numberline {.1}Adding hydrogens to a PDB structure}{44}{subsection.1..1}
+\contentsline {subsection}{\numberline {.2}Exemplary description file}{44}{subsection.1..2}

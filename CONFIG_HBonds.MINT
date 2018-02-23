@@ -1,8 +1,8 @@
 Mode: TrajHbonds #Single or Traj or Download
 out_name: example_Hbonds
-working_dir: ./example/
+working_dir: /home/maciej/mint-fork/MINT 
 file_name: ./example/example.pdb
-files_dcd: example.dcd
+files_dcd: example-traj/example_out_dictionaries_MINT/
 chains_names:  #eg. A B C
 nucleotides:
 first_frame: 0
@@ -24,6 +24,6 @@ margin:0.8
 time_cutoff:0.02
 max_memory_GB:1.5
 threads:4
-only_analysis:0
+only_analysis:1
 create_csvs:1
 pairing_cutoff: 0.1

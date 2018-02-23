@@ -1,0 +1,50 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Citing MINT}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Quick reference}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{What can MINT do?}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{What do you need to run MINT?}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Definitions}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Installation}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Required external python packages}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{MINT}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Running MINT}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Analysing the DNA versus RNA structures}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{Parameters specified in the CONFIG.MINT configuration file}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Example}{section.4}% 13
+\BOOKMARK [1][-]{section.5}{Output files}{}% 14
+\BOOKMARK [2][-]{subsection.5.1}{description.txt}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.2}{MINT.xls}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Pairs}{subsection.5.2}% 17
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Pairing}{subsection.5.2}% 18
+\BOOKMARK [3][-]{subsubsection.5.2.3}{Secondary structure motifs}{subsection.5.2}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.4}{Stacking}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.5}{Pi interactions}{subsection.5.2}% 21
+\BOOKMARK [3][-]{subsubsection.5.2.6}{Nucleotides characteristics}{subsection.5.2}% 22
+\BOOKMARK [2][-]{subsection.5.3}{Timeseries}{section.5}% 23
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Motifs clusters}{subsection.5.3}% 24
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Average motifs}{subsection.5.3}% 25
+\BOOKMARK [2][-]{subsection.5.4}{Dot bracket}{section.5}% 26
+\BOOKMARK [2][-]{subsection.5.5}{Secondary structure drawings}{section.5}% 27
+\BOOKMARK [2][-]{subsection.5.6}{Inputs for external visualization tools}{section.5}% 28
+\BOOKMARK [1][-]{section.6}{Methods}{}% 29
+\BOOKMARK [2][-]{subsection.6.1}{Workflow}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.2}{Loading the DNA or RNA conformations}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.3}{Calculating physico-chemical features}{section.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Hydrogen bonding}{subsection.6.3}% 33
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Donors and acceptors}{subsection.6.3}% 34
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Modified nucleotides}{subsection.6.3}% 35
+\BOOKMARK [3][-]{subsubsection.6.3.4}{Geometric isomerism of base pairs}{subsection.6.3}% 36
+\BOOKMARK [3][-]{subsubsection.6.3.5}{Stacking}{subsection.6.3}% 37
+\BOOKMARK [3][-]{subsubsection.6.3.6}{Ion- interaction between a nucleobase and phosphate oxygen}{subsection.6.3}% 38
+\BOOKMARK [3][-]{subsubsection.6.3.7}{Representation of RNA motifs}{subsection.6.3}% 39
+\BOOKMARK [3][-]{subsubsection.6.3.8}{Motif-search algorithm}{subsection.6.3}% 40
+\BOOKMARK [1][-]{section.7}{Analysis of trajectories or many RNA/DNA conformations}{}% 41
+\BOOKMARK [2][-]{subsection.7.1}{Clustering}{section.7}% 42
+\BOOKMARK [1][-]{section.8}{Visualization}{}% 43
+\BOOKMARK [2][-]{subsection.8.1}{Representing motifs on the tertiary structure}{section.8}% 44
+\BOOKMARK [2][-]{subsection.8.2}{Representing hydrogen bonding and stacking on the tertiary structure}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.3}{Representing secondary structure changes}{section.8}% 46
+\BOOKMARK [2][-]{subsection.8.4}{Correlations}{section.8}% 47
+\BOOKMARK [1][-]{section.9}{Appendices}{}% 48
+\BOOKMARK [2][-]{subsection.1..1}{Adding hydrogens to a PDB structure}{section.9}% 49
+\BOOKMARK [2][-]{subsection.1..2}{Exemplary description file}{section.9}% 50

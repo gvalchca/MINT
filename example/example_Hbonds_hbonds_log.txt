@@ -1,0 +1,8 @@
+
+  46 nucleotides, sequence: 
+GUA CYT ADE CYT CYT GUA GUA CYT URA ADE ADE CYT URA CYT CYT GUA URA GUA CYT CYT ADE GUA CYT ADE GUA CYT CYT GUA CYT GUA GUA URA ADE ADE URA ADE CYT GUA GUA ADE GUA GUA GUA URA GUA CYT 
+Nucleotides statistics:
+GUA-> 16 known parameters
+ADE-> 9 known parameters
+URA-> 6 known parameters
+CYT-> 15 known parameters
