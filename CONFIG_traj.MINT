@@ -25,3 +25,5 @@ threads:4
 only_analysis:0
 create_csvs:1
 pairing_cutoff: 0.1
+all_nucs_DNA: 0
+write_nucs_timeseries: 1

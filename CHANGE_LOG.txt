@@ -1,3 +1,19 @@
+## [0.0.3] - 2018-02-23
+### Added
+- new variable: all_nucs_DNA [0,1] allows to treat all standard nucleotide names to be recognized as DNA instead of DNA
+- new variable: write_nucs_timeseries [0,1] allows to write timeseries of hbonds and stacking for alal nucleotides to csv files. Requires additional library: pandas
+### Changed
+### Removed
+### Fixed
+- AttributeError: No attribute "selectAtoms"
+- multiple small things related to PNA DNA and CHARMM forcefield
+### To Do:
+- Solve deprecation warnings: 
+/home/maciej/.local/lib/python2.7/site-packages/MDAnalysis/core/groups.py:438: DeprecationWarning: Using deprecated init method for Group. In the future use `Group(indices, universe)`. This init method will be removed in version 1.0.
+  DeprecationWarning)
+/home/maciej/.local/lib/python2.7/site-packages/MDAnalysis/core/AtomGroup.py:36: DeprecationWarning: MDAnalysis.core.AtomGroup.AtomGroup has been removed.Please use MDAnalysis.groups.AtomGroupThis stub will be removed in 1.0
+  warnings.warn(message, DeprecationWarning)
+ 
 
 ## [0.0.2] - 2015-07-27
 ### Added

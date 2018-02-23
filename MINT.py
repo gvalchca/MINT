@@ -33,6 +33,7 @@ import multiprocessing
 import MDAnalysis
 import pickle
 import numpy as np
+#import pandas as pd
 
 from operator import itemgetter
 #from pympler.asizeof import asizeof
@@ -48,6 +49,10 @@ import param_reader as ParamReader
 import time
 
 from Bio.PDB.MMCIFParser import MMCIFParser
+
+#import warnings
+#from Bio.PDB.PDBExceptions import PDBConstructionException, PDBConstructionWarning
+#warnings.simplefilter('ignore', PDBConstructionWarning)
 
 if len(sys.argv) < 2:
     print "Specify CONFIG file!"
@@ -1345,6 +1350,21 @@ def per_nucleotide_char(pairs_in_time, traj_len,
             for ind, cvs in enumerate(["Coulomb", "VDW", "Ssum"]):
                 nucls[n][cvs][i] = sta[n][ind]
 
+#Try write lists:
+    if PARMS["write_nucs_timeseries"]==1:
+	import pandas as pd
+        measurement_names_in_code=["WC", "non-WC", "total Hbonds", "Coulomb", "VDW", "Ssum"]
+        measurement_names_to_print=["Hbonds-WC", "Hbonds-non-WC", "Hbonds-total", "Stacking-Coulomb", "Stacking-VDW", "Stacking-Total"]
+        nice_names=dict(zip(measurement_names_in_code,measurement_names_to_print))
+
+        for kk in ["WC", "non-WC", "total Hbonds", "Coulomb", "VDW", "Ssum"]:
+            measurement={}
+            for nuc in nucls:
+                measurement[nuc]=nucls[nuc][kk]
+            measurement_dataframe=pd.DataFrame.from_dict(measurement)
+            measurement_dataframe.to_csv(PARMS["out_name"]+"_timeseries_"+nice_names[kk]+".csv")
+	    print "Written to file "+PARMS["out_name"]+"_timeseries_"+nice_names[kk]+".csv"
+
     nucls_ev = {}
     for nuc in nucls:
         tmp = []
@@ -1352,6 +1372,8 @@ def per_nucleotide_char(pairs_in_time, traj_len,
         for kk in ["WC", "non-WC", "total Hbonds", "Coulomb", "VDW"]:
             w = nucls[nuc][kk]
             if PARMS["Mode"] == "Traj":
+#try lists
+#		print nuc, kk, w
                 aa = avg(w)
                 ssd = sd(w, aa)
                 if kk in ["Coulomb", "VDW"]:

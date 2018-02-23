@@ -1,0 +1,163 @@
+\begin{thebibliography}{10}
+
+\bibitem{Aduri_2007}
+Raviprasad Aduri, Brian~T. Psciuk, Pirro Saro, Hariprakash Taniga, H.~Bernhard
+  Schlegel, and John SantaLucia.
+\newblock Amber force field parameters for the naturally occurring modified
+  nucleosides in rna.
+\newblock {\em Journal of Chemical Theory and Computation}, 3(4):1464--1475,
+  2007.
+
+\bibitem{Auffinger2013}
+Pascal Auffinger.
+\newblock Personal communication, 2013.
+
+\bibitem{Base1996}
+Stacked Base, Dimers Comparison, and H-bonded Base.
+\newblock {Nature of Nucleic Acid - Base Stacking : Nonempirical ab Initio and
+  Empirical Potential}.
+\newblock {\em Journal of Physical Chemistry}, 100:5590--5596, 1996.
+
+\bibitem{Bloomfield1999}
+Victor~A. Bloomfield, Donald~M. Crothres, and Ignactio~Jr. Tinoco.
+\newblock {\em {Nucleic Acids: Structures, Properties, and Functions}}.
+\newblock University Science Books, 1999.
+
+\bibitem{Carter2000}
+a~P Carter, W~M Clemons, D~E Brodersen, R~J Morgan-Warren, B~T Wimberly, and
+  V~Ramakrishnan.
+\newblock {Functional insights from the structure of the 30S ribosomal subunit
+  and its interactions with antibiotics.}
+\newblock {\em Nature}, 407(6802):340--8, September 2000.
+
+\bibitem{Chen2010}
+Vincent~B Chen, W~Bryan Arendall, Jeffrey~J Headd, Daniel~a Keedy, Robert~M
+  Immormino, Gary~J Kapral, Laura~W Murray, Jane~S Richardson, and David~C
+  Richardson.
+\newblock {MolProbity: all-atom structure validation for macromolecular
+  crystallography.}
+\newblock {\em Acta crystallographica. Section D, Biological crystallography},
+  66(Pt 1):12--21, January 2010.
+
+\bibitem{Blin2009}
+Kevin Darty, Alain Denise, and Yann Ponty.
+\newblock {VARNA: Interactive drawing and editing of the secondary structure}.
+\newblock {\em Bioinformatics}, 25(15):1974--1975, 2009.
+
+\bibitem{Evers1999}
+Dirk Evers and Robert Giegerich.
+\newblock {RNA Movies : visualizing RNA secondary structure spaces}.
+\newblock {\em Bioinformatics (Oxford, England)}, 15(1):32--37, 1999.
+
+\bibitem{Foloppe2000}
+Nicolas Foloppe and Alexander~D Mackerell.
+\newblock {All-Atom Empirical Force Field for Nucleic Acids : I . Parameter
+  Optimization Based on Small Molecule and Condensed Phase Macromolecular
+  Target Data}.
+\newblock {\em Journal of Computational Chemistry}, 21(2):86--104, 2000.
+
+\bibitem{Guerra2000}
+Fonseca Guerra, F~Matthias Bickelhaupt, Jaap~G Snijders, De~Boelelaan, Nl-H~V
+  Amsterdam, and Theoretische Chemie.
+\newblock {Hydrogen Bonding in DNA Base Pairs : Reconciliation of Theory and
+  Experiment}.
+\newblock {\em Journal of the American Chemical Society}, (122):4117--4128,
+  2000.
+
+\bibitem{Hobza2008}
+Pavel Hobza.
+\newblock {Stacking interactions.}
+\newblock {\em Physical Chemistry Chemical Physics}, 10(19):2595--2610, May
+  2008.
+
+\bibitem{Humphrey1996}
+W~Humphrey, A~Dalke, and K~Schulten.
+\newblock {VMD: visual molecular dynamics.}
+\newblock {\em Journal of Molecular Graphics}, 14(1):33--8, 27--8, February
+  1996.
+
+\bibitem{Leontis2002}
+Neocles~B Leontis, Jesse Stombaugh, and Eric Westhof.
+\newblock {The non-Watson-Crick base pairs and their associated isostericity
+  matrices.}
+\newblock {\em Nucleic acids research}, 30(16):3497--531, August 2002.
+
+\bibitem{Lescoute2006}
+A~Lescoute and Eric Westhof.
+\newblock {The interaction networks of structured RNAs.}
+\newblock {\em Nucleic Acids Research}, 34(22):6587--604, January 2006.
+
+\bibitem{Leszczynski2002}
+Jerzy Leszczynski, Pavel Hobza, and J~Heyrovsky.
+\newblock {ı S Electronic Properties , Hydrogen Bonding , Stacking , and
+  Cation Binding of DNA and RNA Bases}.
+\newblock {\em Biopolymers}, 61:3--31, 2002.
+
+\bibitem{Mackerell2000}
+Alexander~D Mackerell and Nilesh~K Banavali.
+\newblock {All-Atom Empirical Force Field for Nucleic Acids: II . Application
+  to Molecular Dynamics Simulations of DNA and RNA in Solution}.
+\newblock {\em Journal of Computational Chemistry}, 21(2):105--120, 2000.
+
+\bibitem{Denning2012}
+Naveen Michaud-Agrawal, Elizabeth~J. Denning, Thomas~B. Woolf, and Oliver
+  Beckstein.
+\newblock {MDAnalysis: A Toolkit for the Analysis of Molecular Dyanmic
+  Simulations}.
+\newblock {\em Journal of Computational Chemistry}, 2012.
+
+\bibitem{Pettersen2004}
+Eric~F Pettersen, Thomas~D Goddard, Conrad~C Huang, Gregory~S Couch, Daniel~M
+  Greenblatt, Elaine~C Meng, and Thomas~E Ferrin.
+\newblock {UCSF Chimera--a visualization system for exploratory research and
+  analysis.}
+\newblock {\em Journal of computational chemistry}, 25(13):1605--12, October
+  2004.
+
+\bibitem{Phillips2005}
+James~C Phillips, Rosemary Braun, Wei Wang, James Gumbart, Emad Tajkhorshid,
+  Elizabeth Villa, Christophe Chipot, Robert~D Skeel, Laxmikant Kal\'{e}, and
+  Klaus Schulten.
+\newblock {Scalable molecular dynamics with NAMD.}
+\newblock {\em Journal of Computational Chemistry}, 26(16):1781--802, December
+  2005.
+
+\bibitem{Everitt1977}
+Everitt~B. S.
+\newblock {\em The Analysis of Contingency Tables}.
+\newblock Chapman and Hall, second edition, 1977.
+
+\bibitem{Smit_2008}
+S.~Smit, K.~Rother, J.~Heringa, and R.~Knight.
+\newblock {{F}rom knotted to nested {R}{N}{A} structures: a variety of
+  computational methods for pseudoknot removal}.
+\newblock {\em RNA}, 14(3):410--416, Mar 2008.
+
+\bibitem{Sponer1997}
+J~Sponer, H~a Gabb, J~Leszczynski, and P~Hobza.
+\newblock {Base-base and deoxyribose-base stacking interactions in B-DNA and
+  Z-DNA: a quantum-chemical study.}
+\newblock {\em Biophysical journal}, 73(1):76--87, July 1997.
+
+\bibitem{Hobza1995}
+Jiř\'{\i} Sponer, Jerzy Leszczynski, and Pavel Hobza.
+\newblock {Base Stacking in Cytosine Dimer. A Comparison of Correlated Ab
+  Initio Calculations with Three Empirical Potential Models and Density
+  Functional Theory Calculations}.
+\newblock {\em Journal of Computational Chemistry}, 17(7):841--850, 1995.
+
+\bibitem{Wang2000}
+Junmei Wang, Piotr Cieplak, and Peter~a. Kollman.
+\newblock {How well does a restrained electrostatic potential (RESP) model
+  perform in calculating conformational energies of organic and biological
+  molecules?}
+\newblock {\em Journal of Computational Chemistry}, 21(12):1049--1074,
+  September 2000.
+
+\bibitem{Word1999a}
+J~M Word, S~C Lovell, J~S Richardson, and D~C Richardson.
+\newblock {Asparagine and glutamine: using hydrogen atom contacts in the choice
+  of side-chain amide orientation.}
+\newblock {\em Journal of molecular biology}, 285(4):1735--47, January 1999.
+
+\end{thebibliography}

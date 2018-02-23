@@ -30,7 +30,7 @@ floats = ["time_cutoff", "max_memory_GB", "cutoff_stacking",
           "h_bond_l", "h_bond_angle", "margin", "vdw_cutoff_stacking",
           "pairing_cutoff"]
 ints = ["first_frame", "last_frame", "vmd", "only_analysis",
-        "threads", "stride", "create_csvs", "MerLength", "all_nucs_DNA"]
+        "threads", "stride", "create_csvs", "MerLength", "all_nucs_DNA", "write_nucs_timeseries"]
 strings = ["out_name", "file_name", "file_dcd", "h_bond_atom",
            "table_nucleotides", "table_charges", "force_field",
            "list_of_modified_nucs", "Mode", "working_dir",
@@ -88,6 +88,11 @@ def check(parms, defined_parameters):
         print "You did not specify create_csvs parameter, only xls is going " +\
             "to be created."
         parms["create_csvs"] = 0
+
+    if "write_nucs_timeseries" not in parms.keys() or parms["write_nucs_timeseries"] not in [0, 1]:
+        parms["write_nucs_timeseries"] = 0
+    if  parms["write_nucs_timeseries"] == 1:
+	print "Timeseries characterizing hydorgen bonding and stacking interactions for each nucleotide will be written to the separate csv file."
 
     if "all_nucs_DNA" not in parms.keys() or parms["all_nucs_DNA"] not in [0, 1]:
         parms["all_nucs_DNA"] = 0

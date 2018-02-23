@@ -1,0 +1,44 @@
+number of first nuc, pair_nucleotides, pair type, pair configuration, vmd,  number of frames pair was present, frames when pair was present
+515,G515/C536,WC/WC,Cis, resid 515 536,1.0, 0->9
+516,U516/A533,WC/Hoogsteen,Trans, resid 516 533,1.0, 0->9
+522,C522/G527,WC/WC,Cis, resid 522 527,1.0, 0->9
+521,G521/C536,Sugar/Sugar,Cis, resid 521 536,0.4, 0 5 7 9
+523,A523/C526,Sugar/WC*Hoogsteen,Trans, resid 523 526,0.8, 0->6 8
+505,G505/C525,WC*Hoogsteen/WC*Hoogsteen,Cis, resid 505 525,0.1, 0
+516,U516/C519,Sugar/WC,Cis, resid 516 519,0.5, 1->2 4->5 9
+533,A533/C536,Sugar/WC*Hoogsteen,Trans, resid 533 536,0.2, 8->9
+508,U508/A509,WC*Sugar/WC*Hoogsteen,Cis, resid 508 509,0.1, 4
+517,G517/G529,Sugar/Sugar,Trans, resid 517 529,0.5, 0 2->3 7 9
+504,C504/G541,WC/WC,Cis, resid 504 541,1.0, 0->9
+511,C511/G540,WC/WC,Cis, resid 511 540,1.0, 0->9
+505,G505/C526,WC/WC,Cis, resid 505 526,1.0, 0->9
+520,A520/A533,WC/WC,Trans, resid 520 533,0.5, 2->5 9
+506,G506/C525,WC/WC,Cis, resid 506 525,1.0, 0->9
+520,A520/A533,WC/WC*Hoogsteen,Trans, resid 520 533,0.5, 0->1 6->8
+516,U516/C519,WC*Sugar/WC*Hoogsteen,Cis, resid 516 519,0.4, 3 6->8
+514,C514/G537,WC/WC,Cis, resid 514 537,1.0, 0->9
+512,U512/A539,WC/WC,Cis, resid 512 539,1.0, 0->9
+513,C513/G538,WC/WC,Cis, resid 513 538,1.0, 0->9
+533,A533/A535,WC*Sugar/Sugar,Trans, resid 533 535,0.8, 0->5 7 9
+527,G527/A535,Sugar/WC,Trans, resid 527 535,0.4, 1 4 6->7
+500,G500/C545,WC/WC,Cis, resid 500 545,1.0, 0->9
+501,C501/G544,WC/WC,Cis, resid 501 544,1.0, 0->9
+505,G505/U534,Sugar/WC*Hoogsteen,Trans, resid 505 534,0.1, 7
+520,A520/G529,Hoogsteen/Sugar,Cis, resid 520 529,1.0, 0->9
+538,G538/A539,WC*Sugar/WC*Sugar,Cis, resid 538 539,0.1, 6
+527,G527/A535,Sugar/W?H?S,Trans, resid 527 535,0.6, 0 2->3 5 8->9
+510,A510/G542,Sugar/Sugar,Cis, resid 510 542,0.8, 0->1 4->9
+523,A523/G524,Sugar/Hoogsteen,Trans, resid 523 524,0.6, 2 4->8
+523,A523/C525,Sugar/WC*Hoogsteen,Trans, resid 523 525,1.0, 0->9
+504,C504/A510,WC*Sugar/Sugar,Trans, resid 504 510,0.1, 2
+510,A510/U543,WC*Sugar/WC*Sugar,Cis, resid 510 543,0.1, 3
+520,A520/C536,WC/Sugar,Trans, resid 520 536,0.2, 6 9
+519,C519/G529,WC*Hoogsteen/Sugar,Trans, resid 519 529,0.9, 0->6 8->9
+503,C503/G542,WC/WC,Cis, resid 503 542,1.0, 0->9
+502,A502/U543,WC/WC,Cis, resid 502 543,1.0, 0->9
+507,C507/G524,WC/WC,Cis, resid 507 524,1.0, 0->9
+503,C503/A510,Sugar/WC,Trans, resid 503 510,1.0, 0->9
+521,G521/C528,WC/WC,Cis, resid 521 528,1.0, 0->9
+509,A509/U543,Sugar/Sugar,Cis, resid 509 543,1.0, 0->9
+528,C528/A535,Sugar/Sugar,Trans, resid 528 535,1.0, 0->9
+529,G529/A533,Sugar/WC*Hoogsteen,Trans, resid 529 533,0.1, 2

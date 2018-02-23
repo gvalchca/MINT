@@ -1,0 +1,5 @@
+helix_nucleotides, vmd , percentage of frames helix was present, frames when helix was present
+ C511-G515 -> C536-G540 , resid 511 to 515  536 to 540 , 1.0, 0->9
+ A520 -> A533 , resid 520  533 , 0.5, 2->5 9
+ G521-C522 -> G527-C528 , resid 521 to 522  527 to 528 , 1.0, 0->9
+ G500-C504 -> G541-C545 , resid 500 to 504  541 to 545 , 1.0, 0->9

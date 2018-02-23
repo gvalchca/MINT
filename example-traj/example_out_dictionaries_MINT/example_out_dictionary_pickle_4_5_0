@@ -95,11 +95,11 @@ p33
 I4
 aS' N|A:510 N|G:542'
 p35
-asS'N|A:535'
+asS'N|G:524'
 p36
 (lp37
-I3
-aS' N|G:527 N|C:528 N|A:533'
+I4
+aS' N|C:507 N|A:523'
 p38
 asS'N|C:504'
 p39
@@ -201,40 +201,40 @@ p85
 I3
 aS' N|G:538'
 p87
-asS'N|C:511'
+asS'N|U:531'
 p88
 (lp89
-I2
-aS' N|G:540'
+I0
+ag47
+asS'N|C:536'
 p90
-asS'N|U:516'
-p91
-(lp92
-I4
-aS' N|C:519 N|A:533'
-p93
+(lp91
+I3
+aS' N|G:515'
+p92
 asS'N|C:518'
-p94
-(lp95
+p93
+(lp94
 I0
 ag47
 asS'N|C:519'
-p96
-(lp97
+p95
+(lp96
 I3
 aS' N|U:516 N|G:529'
+p97
+asS'N|U:516'
 p98
-asS'N|C:536'
-p99
-(lp100
-I3
-aS' N|G:515'
+(lp99
+I4
+aS' N|C:519 N|A:533'
+p100
+asS'N|C:511'
 p101
-asS'N|U:531'
-p102
-(lp103
-I0
-ag47
+(lp102
+I2
+aS' N|G:540'
+p103
 asS'N|U:512'
 p104
 (lp105
@@ -270,11 +270,11 @@ p118
 I4
 aS' N|C:522 N|A:535'
 p120
-asS'N|G:524'
+asS'N|A:535'
 p121
 (lp122
-I4
-aS' N|C:507 N|A:523'
+I3
+aS' N|G:527 N|C:528 N|A:533'
 p123
 asS'N|G:505'
 p124
@@ -86995,7 +86995,7 @@ aS'H22'
 p19926
 aS'O2'
 p19927
-a(F165.03083806812344
+a(F165.03083948055132
 cnumpy.core.multiarray
 scalar
 p19928
@@ -87025,7 +87025,7 @@ aS'H1'
 p19940
 aS'N3'
 p19941
-a(F164.46994431541026
+a(F164.46994434590988
 g19928
 (g19931
 S'\xda\xa5,\xde6\xc5\x07@'
@@ -87040,7 +87040,7 @@ aS'H42'
 p19948
 aS'N4'
 p19949
-a(F156.3787873400003
+a(F156.37877931170772
 g19928
 (g19931
 S'd\xb1\xd2R\xcb\xd2\x07@'
@@ -87056,7 +87056,7 @@ aS'H21'
 p19957
 aS'N2'
 p19958
-a(F166.80262149972833
+a(F166.802645192766
 g19928
 (g19931
 S'_M\xbe(_X\x07@'
@@ -87071,7 +87071,7 @@ aS'H1'
 p19965
 aS'N1'
 p19966
-a(F162.98727658874415
+a(F162.9872742016402
 g19928
 (g19931
 S'w\x1fn\xf7mX\x07@'
@@ -87087,7 +87087,7 @@ aS'H61'
 p19974
 aS'O4'
 p19975
-a(F160.2664392712669
+a(F160.2664546853873
 g19928
 (g19931
 S'xPj[\xc5f\x07@'
@@ -87102,7 +87102,7 @@ aS'H3'
 p19982
 aS'N3'
 p19983
-a(F155.47688035284293
+a(F155.47686649218588
 g19928
 (g19931
 S'\xd4\xb5Mj\xce7\x0b@'
@@ -87118,7 +87118,7 @@ aS'H41'
 p19991
 aS'O6'
 p19992
-a(F166.53190215324767
+a(F166.53191015444503
 g19928
 (g19931
 S"\xd0\xd2\xa1\x12\xf6'\x07@"
@@ -87133,7 +87133,7 @@ aS'H21'
 p19999
 aS'N2'
 p20000
-a(F163.50499932035777
+a(F163.50500254072716
 g19928
 (g19931
 S'\r\x0e\x8bP\x9f\xb4\x05@'
@@ -87148,7 +87148,7 @@ aS'H1'
 p20007
 aS'N1'
 p20008
-a(F177.65553482421745
+a(F177.65565185937618
 g19928
 (g19931
 S']\xb7`\xde\xc8\xee\x07@'
@@ -87164,7 +87164,7 @@ aS'H21'
 p20016
 aS'N2'
 p20017
-a(F165.67259256297095
+a(F165.67257673420906
 g19928
 (g19931
 S'\x8b\xa2C\xba\x7f\x10\x07@'
@@ -87179,7 +87179,7 @@ aS'H1'
 p20024
 aS'N1'
 p20025
-a(F161.857610841083
+a(F161.85761555443344
 g19928
 (g19931
 S'\xcc\xc8\x9e\xda\xf1\xb1\x07@'
@@ -87195,7 +87195,7 @@ aS'H21'
 p20033
 aS'O2'
 p20034
-a(F163.51100045183395
+a(F163.51101310719676
 g19928
 (g19931
 S'7\x80\xdd\xed6}\x08@'
@@ -87210,7 +87210,7 @@ aS'H1'
 p20041
 aS'N3'
 p20042
-a(F153.26850657553206
+a(F153.26850240898068
 g19928
 (g19931
 S'Q\x97\xc8\x0b3\xd6\x07@'
@@ -87225,7 +87225,7 @@ aS'H41'
 p20049
 aS'N4'
 p20050
-a(F163.2513522335363
+a(F163.25135663570956
 g19928
 (g19931
 S'P\xb8\xb5\xc2.\xe3\x06@'
@@ -87241,7 +87241,7 @@ aS'H21'
 p20058
 aS'O2'
 p20059
-a(F162.97330562104983
+a(F162.9733132949767
 g19928
 (g19931
 S'\xc4\xb37o\xbc]\x07@'
@@ -87256,7 +87256,7 @@ aS'H1'
 p20066
 aS'N3'
 p20067
-a(F154.11766901301374
+a(F154.11767250773167
 g19928
 (g19931
 S'\xf1\x10\xe6j\x97\xd8\x07@'
@@ -87271,7 +87271,7 @@ aS'H41'
 p20074
 aS'N4'
 p20075
-a(F177.53541258588137
+a(F177.53541320922727
 g19928
 (g19931
 S'\xfe\xfe\xd13S2\x06@'
@@ -87287,7 +87287,7 @@ aS'H41'
 p20083
 aS'O6'
 p20084
-a(F153.12647003200723
+a(F153.12647545537942
 g19928
 (g19931
 S'Z\xe3\xc1\r~\xf6\x06@'
@@ -87302,7 +87302,7 @@ aS'H21'
 p20091
 aS'N2'
 p20092
-a(F155.20565015932445
+a(F155.20563968024467
 g19928
 (g19931
 S'@\xc5\xd7\xbf\x18f\t@'
@@ -87317,7 +87317,7 @@ aS'H1'
 p20099
 aS'N1'
 p20100
-a(F163.8165444646279
+a(F163.81654112914978
 g19928
 (g19931
 S'\x08\xbd\x85aQy\x07@'
@@ -87333,7 +87333,7 @@ aS'H41'
 p20108
 aS'O6'
 p20109
-a(F160.54882719711236
+a(F160.54884202643228
 g19928
 (g19931
 S'qu7NCa\t@'
@@ -87348,7 +87348,7 @@ aS'H1'
 p20116
 aS'N1'
 p20117
-a(F154.6057943651075
+a(F154.60578514657746
 g19928
 (g19931
 S'8\xcd\x8f\x15[\xd9\x07@'
@@ -87364,7 +87364,7 @@ aS'H3'
 p20125
 aS'N1'
 p20126
-a(F152.1803361519648
+a(F152.18033033079257
 g19928
 (g19931
 S'7\xbe\xe9\x8d}[\x07@'
@@ -87379,7 +87379,7 @@ aS'H61'
 p20133
 aS'N6'
 p20134
-a(F160.15954523013718
+a(F160.15954856449824
 g19928
 (g19931
 S'xoUv\xfd\xd1\n@'
@@ -87395,7 +87395,7 @@ aS'H42'
 p20142
 aS'O6'
 p20143
-a(F172.36054493141322
+a(F172.36053404494544
 g19928
 (g19931
 S'\x88"#\xd2\xe2\x04\x07@'
@@ -87410,7 +87410,7 @@ aS'H21'
 p20150
 aS'N2'
 p20151
-a(F154.53248036950737
+a(F154.53248355640488
 g19928
 (g19931
 S'#\x86z\xc2\x8c\xf4\x08@'
@@ -87425,7 +87425,7 @@ aS'H1'
 p20158
 aS'N1'
 p20159
-a(F169.30950611082534
+a(F169.3095431842141
 g19928
 (g19931
 S't\xbb\xe1+\xfd\x19\x08@'
@@ -87441,7 +87441,7 @@ aS'H21'
 p20167
 aS'N2'
 p20168
-a(F154.54215518975272
+a(F154.54215510426963
 g19928
 (g19931
 S'\x86\xe8\xec\x95\xb2>\t@'
@@ -87456,7 +87456,7 @@ aS'H1'
 p20175
 aS'N1'
 p20176
-a(F162.99396844849227
+a(F162.99395412664848
 g19928
 (g19931
 S'(UA\xc5\xcb\x1a\x07@'
@@ -87472,7 +87472,7 @@ aS'H22'
 p20184
 aS'O2'
 p20185
-a(F158.04377678882375
+a(F158.04377452568173
 g19928
 (g19931
 S';\x18\xcb\xfe\xfa\x87\x06@'
@@ -87487,7 +87487,7 @@ aS'H1'
 p20192
 aS'N3'
 p20193
-a(F160.93887492117625
+a(F160.9388731487967
 g19928
 (g19931
 S'\x82x\x0c\x8fe\x9b\x06@'
@@ -87502,7 +87502,7 @@ aS'H41'
 p20200
 aS'N4'
 p20201
-a(F165.17845161203778
+a(F165.1784398685153
 g19928
 (g19931
 S'\xb1X\xf3{\x197\x06@'
@@ -87518,7 +87518,7 @@ aS'H21'
 p20209
 aS'O2'
 p20210
-a(F166.9634975595855
+a(F166.96350980809814
 g19928
 (g19931
 S'\xfb\x0e~\xa0v4\x07@'
@@ -87533,7 +87533,7 @@ aS'H1'
 p20217
 aS'N3'
 p20218
-a(F165.39606882107125
+a(F165.3960770162286
 g19928
 (g19931
 S'\xabn\xec\xdd\x12\xa0\x08@'
@@ -87548,7 +87548,7 @@ aS'H42'
 p20225
 aS'N4'
 p20226
-a(F176.2210954220564
+a(F176.22109356762004
 g19928
 (g19931
 S"=''\x97[]\x06@"
@@ -87564,7 +87564,7 @@ aS'H42'
 p20234
 aS'O6'
 p20235
-a(F158.9874107342878
+a(F158.987406140654
 g19928
 (g19931
 S'\x9f\x8b\xa1\x8c~\xd8\x05@'
@@ -87579,7 +87579,7 @@ aS'H21'
 p20242
 aS'N2'
 p20243
-a(F161.26408052889605
+a(F161.26407211555934
 g19928
 (g19931
 S'\x87\x1e\xb1jy6\x06@'
@@ -87594,7 +87594,7 @@ aS'H1'
 p20250
 aS'N1'
 p20251
-a(F165.62507842857502
+a(F165.62506593834243
 g19928
 (g19931
 S'\x99\x84\x16r$\xcc\x07@'
@@ -87680,7 +87680,7 @@ aS"H2'"
 p20296
 aS'N1'
 p20297
-a(F161.24581674080733
+a(F161.24583551047542
 g19928
 (g19931
 S'\xe8\xeeL\xad\xac\xc7\x06@'
@@ -87696,7 +87696,7 @@ aS'H62'
 p20305
 aS'N6'
 p20306
-a(F157.33432427890833
+a(F157.33433643697083
 g19928
 (g19931
 S'#\xa0\xfa\x84\x91\xc3\n@'
@@ -87712,7 +87712,7 @@ aS"H2'"
 p20314
 aS"O2'"
 p20315
-a(F158.5902742390808
+a(F158.59027162155277
 g19928
 (g19931
 S'\xc0\x06D\xaa\xa9_\x08@'
@@ -87728,7 +87728,7 @@ aS"H2'"
 p20323
 aS'N3'
 p20324
-a(F162.64541878856267
+a(F162.64542323368104
 g19928
 (g19931
 S'\x0f\xc9\xe0\xfe\x0c\xbe\x08@'
@@ -87743,7 +87743,7 @@ aS"H2'"
 p20331
 aS"O2'"
 p20332
-a(F170.79288870576875
+a(F170.79288268702246
 g19928
 (g19931
 S'\xc3|\x156:\x8f\x06@'
@@ -87759,7 +87759,7 @@ aS"H2'"
 p20340
 aS'N3'
 p20341
-a(F151.0613345422907
+a(F151.06132677869104
 g19928
 (g19931
 S'\x0b\xcf\x14d\xd9\x06\x07@'
@@ -87774,7 +87774,7 @@ aS'H41'
 p20348
 aS'N4'
 p20349
-a(F161.5293237357414
+a(F161.52930202140928
 g19928
 (g19931
 S'\xce\x11#-\x8b\xb6\x08@'
@@ -87790,7 +87790,7 @@ aS'H3'
 p20357
 aS'N7'
 p20358
-a(F162.05471441919286
+a(F162.05470749312335
 g19928
 (g19931
 S'\xbb\x16\xfa\xafr4\x08@'
@@ -87805,7 +87805,7 @@ aS'H62'
 p20365
 aS'N6'
 p20366
-a(F168.12722746602273
+a(F168.12721011812823
 g19928
 (g19931
 S'h\xff\xb8Z`a\x08@'
@@ -87821,7 +87821,7 @@ aS'H42'
 p20374
 aS"O2'"
 p20375
-a(F160.11807957292575
+a(F160.11807565585792
 g19928
 (g19931
 S'Q\xd4~\xb7\x05\xa3\x08@'
@@ -87837,7 +87837,7 @@ aS'H62'
 p20383
 aS'N3'
 p20384
-a(F158.24346255075068
+a(F158.2434619362562
 g19928
 (g19931
 S'N\xd8\xa5\xc3\x19\n\t@'
@@ -87853,7 +87853,7 @@ aS"H2'"
 p20392
 aS'N7'
 p20393
-a(F155.23059311986006
+a(F155.23058353109354
 g19928
 (g19931
 S'8<F\xabN\xb2\t@'
@@ -87869,7 +87869,7 @@ aS'H42'
 p20401
 aS'N4'
 p20402
-a(F164.6017819552483
+a(F164.6017943176478
 g19928
 (g19931
 S"'\xee\x1bM\xc7\x1f\t@"
@@ -87885,7 +87885,7 @@ aS'H42'
 p20410
 aS'N4'
 p20411
-a(F156.41864045278152
+a(F156.41865395608224
 g19928
 (g19931
 S'-\x9fZ\xd6.7\x0b@'
@@ -87901,7 +87901,7 @@ aS"H2'"
 p20419
 aS'N1'
 p20420
-a(F162.96327438439624
+a(F162.96325925651843
 g19928
 (g19931
 S'k`\xaeP\x7f\xef\x05@'
@@ -87917,7 +87917,7 @@ aS"H2'"
 p20428
 aS"O2'"
 p20429
-a(F155.26444598850924
+a(F155.26444760899847
 g19928
 (g19931
 S"';]\x9e\x15\xc3\x06@"
@@ -87933,7 +87933,7 @@ aS'H2'
 p20437
 aS"O2'"
 p20438
-a(F156.7910451292253
+a(F156.79104953000967
 g19928
 (g19931
 S'|2\x9dp\xe4M\x0b@'
@@ -88367,9 +88367,9 @@ p20566
 (lp20567
 sS'fileText'
 p20568
-S"\nHelices: \n1] N|G:500-N|C:504 -> N|G:541-N|C:545\n2] N|C:511-N|G:515 -> N|C:536-N|G:540\n3] N|G:521-N|C:522 -> N|G:527-N|C:528\nHelices vmd:\n1] chain N and resid 500 to 504  chain N and resid 541 to 545\n2] chain N and resid 511 to 515  chain N and resid 536 to 540\n3] chain N and resid 521 to 522  chain N and resid 527 to 528\n\nPseudoknots:\n1] N|G:505-N|C:526\n2] N|G:506-N|C:525\n3] N|C:507-N|G:524\n\nPseudoknots vmd:\n1] chain N and resid  505 526 \n2] chain N and resid  506 525 \n3] chain N and resid  507 524 \n\n\nMotifs:\n1]  0-6  N|C:504-N|G:541-N|G:540-N|C:511-N|A:510-N|A:509-N|U:508-N|C:507-N|G:506-N|G:505-N|C:504-\n2]  7-5  N|G:515-N|C:536-N|A:535-N|U:534-N|A:533-N|A:532-N|U:531-N|G:530-N|G:529-N|C:528-N|G:521-N|A:520-N|C:519-N|C:518-N|G:517-N|U:516-N|G:515-\n3]  4  N|C:522-N|G:527-N|C:526-N|C:525-N|G:524-N|A:523-N|C:522-\n\nMotifs vmd:\n1]  chain N and resid  504 541 540 511 510 509 508 507 506 505 504 \n2]  chain N and resid  515 536 535 534 533 532 531 530 529 528 521 520 519 518 517 516 515 \n3]  chain N and resid  522 527 526 525 524 523 522 \n\n\nWC Base pairs: \n0] N|G:500/N|C:545  N2-H22-O2 angle: 165.03 distance: 2.67  | N1-H1-N3 angle: 164.47 distance: 2.97  | O6-H42-N4 angle: 156.38 distance: 2.98 WC/WC/3  Cis\n1] N|C:501/N|G:544  O2-H21-N2 angle: 166.8 distance: 2.92  | N3-H1-N1 angle: 162.99 distance: 2.92 WC/WC/2  Cis\n2] N|A:502/N|U:543  N6-H61-O4 angle: 160.27 distance: 2.93  | N1-H3-N3 angle: 155.48 distance: 3.4 WC/WC/2  Cis\n3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.5 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis\n4] N|C:504/N|G:541  O2-H21-N2 angle: 165.67 distance: 2.88  | N3-H1-N1 angle: 161.86 distance: 2.96 WC/WC/2  Cis\n5] N|G:505/N|C:526  N2-H21-O2 angle: 163.51 distance: 3.06  | N1-H1-N3 angle: 153.27 distance: 2.98  | O6-H41-N4 angle: 163.25 distance: 2.86 WC/WC/3  Cis\n6] N|G:506/N|C:525  N2-H21-O2 angle: 162.97 distance: 2.92  | N1-H1-N3 angle: 154.12 distance: 2.98  | O6-H41-N4 angle: 177.54 distance: 2.77 WC/WC/3  Cis\n7] N|C:507/N|G:524  N4-H41-O6 angle: 153.13 distance: 2.87  | O2-H21-N2 angle: 155.21 distance: 3.17  | N3-H1-N1 angle: 163.82 distance: 2.93 WC/WC/3  Cis\n8] N|C:511/N|G:540  N4-H41-O6 angle: 160.55 distance: 3.17  | N3-H1-N1 angle: 154.61 distance: 2.98 WC/WC/2  Cis\n9] N|U:512/N|A:539  N3-H3-N1 angle: 152.18 distance: 2.92  | O4-H61-N6 angle: 160.16 distance: 3.35 WC/WC/2  Cis\n10] N|C:513/N|G:538  N4-H42-O6 angle: 172.36 distance: 2.88  | O2-H21-N2 angle: 154.53 distance: 3.12  | N3-H1-N1 angle: 169.31 distance: 3.01 WC/WC/3  Cis\n11] N|C:514/N|G:537  O2-H21-N2 angle: 154.54 distance: 3.16  | N3-H1-N1 angle: 162.99 distance: 2.89 WC/WC/2  Cis\n12] N|G:515/N|C:536  N2-H22-O2 angle: 158.04 distance: 2.82  | N1-H1-N3 angle: 160.94 distance: 2.83  | O6-H41-N4 angle: 165.18 distance: 2.78 WC/WC/3  Cis\n13] N|G:521/N|C:528  N2-H21-O2 angle: 166.96 distance: 2.9  | N1-H1-N3 angle: 165.4 distance: 3.08  | O6-H42-N4 angle: 176.22 distance: 2.8 WC/WC/3  Cis\n14] N|C:522/N|G:527  N4-H42-O6 angle: 158.99 distance: 2.73  | O2-H21-N2 angle: 161.26 distance: 2.78  | N3-H1-N1 angle: 165.63 distance: 2.97 WC/WC/3  Cis\n\nnon-WC Base pairs: \n0] N|C:503/N|A:510  O2'-H2'-N1 angle: 161.25 distance: 2.85 Sugar/WC/1  Trans\n1] N|U:508/N|A:509  O2-H62-N6 angle: 157.33 distance: 3.35 WC*Sugar/WC*Hoogsteen/1  Cis\n2] N|A:509/N|U:543  N3-H2'-O2' angle: 158.59 distance: 3.05 Sugar/Sugar/1  Cis\n3] N|A:510/N|G:542  O2'-H2'-N3 angle: 162.65 distance: 3.09  | O2'-H2'-O2' angle: 170.79 distance: 2.82 Sugar/Sugar/2  Cis\n4] N|U:516/N|C:519  O2'-H2'-N3 angle: 151.06 distance: 2.88  | O2-H41-N4 angle: 161.53 distance: 3.09 Sugar/WC/2  Cis\n5] N|U:516/N|A:533  N3-H3-N7 angle: 162.05 distance: 3.03  | O2-H62-N6 angle: 168.13 distance: 3.05 WC/Hoogsteen/2  Trans\n6] N|C:519/N|G:529  N4-H42-O2' angle: 160.12 distance: 3.08 WC*Hoogsteen/Sugar/1  Trans\n7] N|A:520/N|G:529  N6-H62-N3 angle: 158.24 distance: 3.13 WC*Hoogsteen/Sugar/1  Cis\n8] N|A:523/N|G:524  O2'-H2'-N7 angle: 155.23 distance: 3.21 Sugar/Hoogsteen/1  Trans\n9] N|A:523/N|C:525  O2'-H42-N4 angle: 164.6 distance: 3.14 Sugar/WC*Hoogsteen/1  Trans\n10] N|A:523/N|C:526  N3-H42-N4 angle: 156.42 distance: 3.4 Sugar/WC*Hoogsteen/1  Trans\n11] N|G:527/N|A:535  O2'-H2'-N1 angle: 162.96 distance: 2.74 Sugar/WC/1  Trans\n12] N|C:528/N|A:535  O2'-H2'-O2' angle: 155.26 distance: 2.85 Sugar/Sugar/1  Trans\n13] N|A:533/N|A:535  C2-H2-O2' angle: 156.79 distance: 3.41 Sugar/Sugar/1  Trans\n\nDot-Bracket\nGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC\n(((((......(((((.....((....)).......))))))))))\n Modified nucleotides denoted by lower case letters\n"
+S"\nHelices: \n1] N|G:500-N|C:504 -> N|G:541-N|C:545\n2] N|C:511-N|G:515 -> N|C:536-N|G:540\n3] N|G:521-N|C:522 -> N|G:527-N|C:528\nHelices vmd:\n1] chain N and resid 500 to 504  chain N and resid 541 to 545\n2] chain N and resid 511 to 515  chain N and resid 536 to 540\n3] chain N and resid 521 to 522  chain N and resid 527 to 528\n\nPseudoknots:\n1] N|G:505-N|C:526\n2] N|G:506-N|C:525\n3] N|C:507-N|G:524\n\nPseudoknots vmd:\n1] chain N and resid  505 526 \n2] chain N and resid  506 525 \n3] chain N and resid  507 524 \n\n\nMotifs:\n1]  0-6  N|C:504-N|G:541-N|G:540-N|C:511-N|A:510-N|A:509-N|U:508-N|C:507-N|G:506-N|G:505-N|C:504-\n2]  7-5  N|G:515-N|C:536-N|A:535-N|U:534-N|A:533-N|A:532-N|U:531-N|G:530-N|G:529-N|C:528-N|G:521-N|A:520-N|C:519-N|C:518-N|G:517-N|U:516-N|G:515-\n3]  4  N|C:522-N|G:527-N|C:526-N|C:525-N|G:524-N|A:523-N|C:522-\n\nMotifs vmd:\n1]  chain N and resid  504 541 540 511 510 509 508 507 506 505 504 \n2]  chain N and resid  515 536 535 534 533 532 531 530 529 528 521 520 519 518 517 516 515 \n3]  chain N and resid  522 527 526 525 524 523 522 \n\n\nWC Base pairs: \n0] N|G:500/N|C:545  N2-H22-O2 angle: 165.03 distance: 2.67  | N1-H1-N3 angle: 164.47 distance: 2.97  | O6-H42-N4 angle: 156.38 distance: 2.98 WC/WC/3  Cis\n1] N|C:501/N|G:544  O2-H21-N2 angle: 166.8 distance: 2.92  | N3-H1-N1 angle: 162.99 distance: 2.92 WC/WC/2  Cis\n2] N|A:502/N|U:543  N6-H61-O4 angle: 160.27 distance: 2.93  | N1-H3-N3 angle: 155.48 distance: 3.4 WC/WC/2  Cis\n3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.51 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis\n4] N|C:504/N|G:541  O2-H21-N2 angle: 165.67 distance: 2.88  | N3-H1-N1 angle: 161.86 distance: 2.96 WC/WC/2  Cis\n5] N|G:505/N|C:526  N2-H21-O2 angle: 163.51 distance: 3.06  | N1-H1-N3 angle: 153.27 distance: 2.98  | O6-H41-N4 angle: 163.25 distance: 2.86 WC/WC/3  Cis\n6] N|G:506/N|C:525  N2-H21-O2 angle: 162.97 distance: 2.92  | N1-H1-N3 angle: 154.12 distance: 2.98  | O6-H41-N4 angle: 177.54 distance: 2.77 WC/WC/3  Cis\n7] N|C:507/N|G:524  N4-H41-O6 angle: 153.13 distance: 2.87  | O2-H21-N2 angle: 155.21 distance: 3.17  | N3-H1-N1 angle: 163.82 distance: 2.93 WC/WC/3  Cis\n8] N|C:511/N|G:540  N4-H41-O6 angle: 160.55 distance: 3.17  | N3-H1-N1 angle: 154.61 distance: 2.98 WC/WC/2  Cis\n9] N|U:512/N|A:539  N3-H3-N1 angle: 152.18 distance: 2.92  | O4-H61-N6 angle: 160.16 distance: 3.35 WC/WC/2  Cis\n10] N|C:513/N|G:538  N4-H42-O6 angle: 172.36 distance: 2.88  | O2-H21-N2 angle: 154.53 distance: 3.12  | N3-H1-N1 angle: 169.31 distance: 3.01 WC/WC/3  Cis\n11] N|C:514/N|G:537  O2-H21-N2 angle: 154.54 distance: 3.16  | N3-H1-N1 angle: 162.99 distance: 2.89 WC/WC/2  Cis\n12] N|G:515/N|C:536  N2-H22-O2 angle: 158.04 distance: 2.82  | N1-H1-N3 angle: 160.94 distance: 2.83  | O6-H41-N4 angle: 165.18 distance: 2.78 WC/WC/3  Cis\n13] N|G:521/N|C:528  N2-H21-O2 angle: 166.96 distance: 2.9  | N1-H1-N3 angle: 165.4 distance: 3.08  | O6-H42-N4 angle: 176.22 distance: 2.8 WC/WC/3  Cis\n14] N|C:522/N|G:527  N4-H42-O6 angle: 158.99 distance: 2.73  | O2-H21-N2 angle: 161.26 distance: 2.78  | N3-H1-N1 angle: 165.63 distance: 2.97 WC/WC/3  Cis\n\nnon-WC Base pairs: \n0] N|C:503/N|A:510  O2'-H2'-N1 angle: 161.25 distance: 2.85 Sugar/WC/1  Trans\n1] N|U:508/N|A:509  O2-H62-N6 angle: 157.33 distance: 3.35 WC*Sugar/WC*Hoogsteen/1  Cis\n2] N|A:509/N|U:543  N3-H2'-O2' angle: 158.59 distance: 3.05 Sugar/Sugar/1  Cis\n3] N|A:510/N|G:542  O2'-H2'-N3 angle: 162.65 distance: 3.09  | O2'-H2'-O2' angle: 170.79 distance: 2.82 Sugar/Sugar/2  Cis\n4] N|U:516/N|C:519  O2'-H2'-N3 angle: 151.06 distance: 2.88  | O2-H41-N4 angle: 161.53 distance: 3.09 Sugar/WC/2  Cis\n5] N|U:516/N|A:533  N3-H3-N7 angle: 162.05 distance: 3.03  | O2-H62-N6 angle: 168.13 distance: 3.05 WC/Hoogsteen/2  Trans\n6] N|C:519/N|G:529  N4-H42-O2' angle: 160.12 distance: 3.08 WC*Hoogsteen/Sugar/1  Trans\n7] N|A:520/N|G:529  N6-H62-N3 angle: 158.24 distance: 3.13 WC*Hoogsteen/Sugar/1  Cis\n8] N|A:523/N|G:524  O2'-H2'-N7 angle: 155.23 distance: 3.21 Sugar/Hoogsteen/1  Trans\n9] N|A:523/N|C:525  O2'-H42-N4 angle: 164.6 distance: 3.14 Sugar/WC*Hoogsteen/1  Trans\n10] N|A:523/N|C:526  N3-H42-N4 angle: 156.42 distance: 3.4 Sugar/WC*Hoogsteen/1  Trans\n11] N|G:527/N|A:535  O2'-H2'-N1 angle: 162.96 distance: 2.74 Sugar/WC/1  Trans\n12] N|C:528/N|A:535  O2'-H2'-O2' angle: 155.26 distance: 2.85 Sugar/Sugar/1  Trans\n13] N|A:533/N|A:535  C2-H2-O2' angle: 156.79 distance: 3.41 Sugar/Sugar/1  Trans\n\nDot-Bracket\nGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC\n(((((......(((((.....((....)).......))))))))))\n Modified nucleotides denoted by lower case letters\n"
 p20569
-sS"\nHelices: \n1] N|G:500-N|C:504 -> N|G:541-N|C:545\n2] N|C:511-N|G:515 -> N|C:536-N|G:540\n3] N|G:521-N|C:522 -> N|G:527-N|C:528\nHelices vmd:\n1] chain N and resid 500 to 504  chain N and resid 541 to 545\n2] chain N and resid 511 to 515  chain N and resid 536 to 540\n3] chain N and resid 521 to 522  chain N and resid 527 to 528\n\nPseudoknots:\n1] N|G:505-N|C:526\n2] N|G:506-N|C:525\n3] N|C:507-N|G:524\n\nPseudoknots vmd:\n1] chain N and resid  505 526 \n2] chain N and resid  506 525 \n3] chain N and resid  507 524 \n\n\nMotifs:\n1]  0-6  N|C:504-N|G:541-N|G:540-N|C:511-N|A:510-N|A:509-N|U:508-N|C:507-N|G:506-N|G:505-N|C:504-\n2]  7-5  N|G:515-N|C:536-N|A:535-N|U:534-N|A:533-N|A:532-N|U:531-N|G:530-N|G:529-N|C:528-N|G:521-N|A:520-N|C:519-N|C:518-N|G:517-N|U:516-N|G:515-\n3]  4  N|C:522-N|G:527-N|C:526-N|C:525-N|G:524-N|A:523-N|C:522-\n\nMotifs vmd:\n1]  chain N and resid  504 541 540 511 510 509 508 507 506 505 504 \n2]  chain N and resid  515 536 535 534 533 532 531 530 529 528 521 520 519 518 517 516 515 \n3]  chain N and resid  522 527 526 525 524 523 522 \n\n\nWC Base pairs: \n0] N|G:500/N|C:545  N2-H22-O2 angle: 165.03 distance: 2.67  | N1-H1-N3 angle: 164.47 distance: 2.97  | O6-H42-N4 angle: 156.38 distance: 2.98 WC/WC/3  Cis\n1] N|C:501/N|G:544  O2-H21-N2 angle: 166.8 distance: 2.92  | N3-H1-N1 angle: 162.99 distance: 2.92 WC/WC/2  Cis\n2] N|A:502/N|U:543  N6-H61-O4 angle: 160.27 distance: 2.93  | N1-H3-N3 angle: 155.48 distance: 3.4 WC/WC/2  Cis\n3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.5 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis\n4] N|C:504/N|G:541  O2-H21-N2 angle: 165.67 distance: 2.88  | N3-H1-N1 angle: 161.86 distance: 2.96 WC/WC/2  Cis\n5] N|G:505/N|C:526  N2-H21-O2 angle: 163.51 distance: 3.06  | N1-H1-N3 angle: 153.27 distance: 2.98  | O6-H41-N4 angle: 163.25 distance: 2.86 WC/WC/3  Cis\n6] N|G:506/N|C:525  N2-H21-O2 angle: 162.97 distance: 2.92  | N1-H1-N3 angle: 154.12 distance: 2.98  | O6-H41-N4 angle: 177.54 distance: 2.77 WC/WC/3  Cis\n7] N|C:507/N|G:524  N4-H41-O6 angle: 153.13 distance: 2.87  | O2-H21-N2 angle: 155.21 distance: 3.17  | N3-H1-N1 angle: 163.82 distance: 2.93 WC/WC/3  Cis\n8] N|C:511/N|G:540  N4-H41-O6 angle: 160.55 distance: 3.17  | N3-H1-N1 angle: 154.61 distance: 2.98 WC/WC/2  Cis\n9] N|U:512/N|A:539  N3-H3-N1 angle: 152.18 distance: 2.92  | O4-H61-N6 angle: 160.16 distance: 3.35 WC/WC/2  Cis\n10] N|C:513/N|G:538  N4-H42-O6 angle: 172.36 distance: 2.88  | O2-H21-N2 angle: 154.53 distance: 3.12  | N3-H1-N1 angle: 169.31 distance: 3.01 WC/WC/3  Cis\n11] N|C:514/N|G:537  O2-H21-N2 angle: 154.54 distance: 3.16  | N3-H1-N1 angle: 162.99 distance: 2.89 WC/WC/2  Cis\n12] N|G:515/N|C:536  N2-H22-O2 angle: 158.04 distance: 2.82  | N1-H1-N3 angle: 160.94 distance: 2.83  | O6-H41-N4 angle: 165.18 distance: 2.78 WC/WC/3  Cis\n13] N|G:521/N|C:528  N2-H21-O2 angle: 166.96 distance: 2.9  | N1-H1-N3 angle: 165.4 distance: 3.08  | O6-H42-N4 angle: 176.22 distance: 2.8 WC/WC/3  Cis\n14] N|C:522/N|G:527  N4-H42-O6 angle: 158.99 distance: 2.73  | O2-H21-N2 angle: 161.26 distance: 2.78  | N3-H1-N1 angle: 165.63 distance: 2.97 WC/WC/3  Cis\n\nnon-WC Base pairs: \n0] N|C:503/N|A:510  O2'-H2'-N1 angle: 161.25 distance: 2.85 Sugar/WC/1  Trans\n1] N|U:508/N|A:509  O2-H62-N6 angle: 157.33 distance: 3.35 WC*Sugar/WC*Hoogsteen/1  Cis\n2] N|A:509/N|U:543  N3-H2'-O2' angle: 158.59 distance: 3.05 Sugar/Sugar/1  Cis\n3] N|A:510/N|G:542  O2'-H2'-N3 angle: 162.65 distance: 3.09  | O2'-H2'-O2' angle: 170.79 distance: 2.82 Sugar/Sugar/2  Cis\n4] N|U:516/N|C:519  O2'-H2'-N3 angle: 151.06 distance: 2.88  | O2-H41-N4 angle: 161.53 distance: 3.09 Sugar/WC/2  Cis\n5] N|U:516/N|A:533  N3-H3-N7 angle: 162.05 distance: 3.03  | O2-H62-N6 angle: 168.13 distance: 3.05 WC/Hoogsteen/2  Trans\n6] N|C:519/N|G:529  N4-H42-O2' angle: 160.12 distance: 3.08 WC*Hoogsteen/Sugar/1  Trans\n7] N|A:520/N|G:529  N6-H62-N3 angle: 158.24 distance: 3.13 WC*Hoogsteen/Sugar/1  Cis\n8] N|A:523/N|G:524  O2'-H2'-N7 angle: 155.23 distance: 3.21 Sugar/Hoogsteen/1  Trans\n9] N|A:523/N|C:525  O2'-H42-N4 angle: 164.6 distance: 3.14 Sugar/WC*Hoogsteen/1  Trans\n10] N|A:523/N|C:526  N3-H42-N4 angle: 156.42 distance: 3.4 Sugar/WC*Hoogsteen/1  Trans\n11] N|G:527/N|A:535  O2'-H2'-N1 angle: 162.96 distance: 2.74 Sugar/WC/1  Trans\n12] N|C:528/N|A:535  O2'-H2'-O2' angle: 155.26 distance: 2.85 Sugar/Sugar/1  Trans\n13] N|A:533/N|A:535  C2-H2-O2' angle: 156.79 distance: 3.41 Sugar/Sugar/1  Trans\n\nDot-Bracket\nGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC\n(((((......(((((.....((....)).......))))))))))\n Modified nucleotides denoted by lower case letters\n\n\nStacking pairs: qn1 n2     Coul     VDW    sum\nN|G:500 N|C:501(-6.65, -5.67, -12.32)\nN|C:501 N|A:502(6.11, -3.3, 2.81)\nN|C:501 N|C:545(6.44, -2.47, 3.98)\nN|A:502 N|C:503(1.99, -5.77, -3.78)\nN|A:502 N|G:544(-0.16, -5.17, -5.33)\nN|C:503 N|C:504(1.64, -3.74, -2.09)\nN|C:503 N|U:543(1.73, -1.76, -0.03)\nN|C:504 N|A:510(0.79, -0.89, -0.1)\nN|C:504 N|C:511(1.44, -1.76, -0.32)\nN|C:504 N|G:542(2.7, -3.48, -0.77)\nN|G:505 N|G:506(4.46, -5.67, -1.21)\nN|G:505 N|G:527(-1.08, -0.59, -1.67)\nN|G:505 N|A:535(4.25, -7.22, -2.97)\nN|G:506 N|C:507(-4.53, -6.12, -10.65)\nN|G:506 N|C:526(0.17, -3.43, -3.25)\nN|C:507 N|U:508(2.08, -4.16, -2.07)\nN|C:507 N|C:525(5.79, -1.07, 4.72)\nN|A:509 N|A:510(26.46, -5.94, 20.52)\nN|C:511 N|U:512(-0.95, -4.97, -5.92)\nN|C:511 N|G:541(1.3, -3.54, -2.25)\nN|U:512 N|C:513(0.88, -3.65, -2.77)\nN|U:512 N|G:540(1.16, -2.23, -1.07)\nN|C:513 N|C:514(6.89, -4.38, 2.5)\nN|C:513 N|A:539(6.58, -2.72, 3.86)\nN|C:514 N|G:515(-0.44, -3.99, -4.43)\nN|C:514 N|G:538(-3.36, -3.48, -6.84)\nN|G:515 N|U:516(4.54, -6.17, -1.62)\nN|G:515 N|G:537(1.43, -5.84, -4.41)\nN|U:516 N|G:517(0.94, -5.37, -4.43)\nN|U:516 N|A:520(5.6, -0.89, 4.71)\nN|U:516 N|C:536(2.6, -0.57, 2.03)\nN|G:517 N|C:519(-0.3, -0.65, -0.95)\nN|G:517 N|U:531(3.32, -2.58, 0.74)\nN|G:517 N|A:533(2.64, -2.04, 0.6)\nN|C:518 N|G:529(4.47, -4.03, 0.45)\nN|C:518 N|G:530(4.62, -5.18, -0.56)\nN|C:519 N|A:520(1.61, -4.79, -3.18)\nN|A:520 N|G:521(4.05, -4.57, -0.51)\nN|A:520 N|C:536(4.92, -0.52, 4.4)\nN|G:521 N|C:522(-3.25, -6.23, -9.48)\nN|G:521 N|G:529(-2.85, -4.57, -7.43)\nN|C:522 N|A:523(-2.41, -3.49, -5.9)\nN|C:522 N|C:528(9.31, -2.26, 7.05)\nN|A:523 N|G:527(15.23, -6.2, 9.03)\nN|G:524 N|C:525(-6.62, -6.12, -12.74)\nN|C:525 N|C:526(4.52, -3.85, 0.67)\nN|C:526 N|G:527(0.09, -1.73, -1.64)\nN|G:527 N|C:528(-7.59, -5.88, -13.47)\nN|C:528 N|G:529(-2.91, -3.77, -6.68)\nN|A:533 N|C:536(5.91, -5.7, 0.2)\nN|C:536 N|G:537(-1.28, -4.14, -5.41)\nN|G:537 N|G:538(9.23, -6.73, 2.5)\nN|G:538 N|A:539(9.23, -6.29, 2.93)\nN|A:539 N|G:540(10.41, -7.12, 3.29)\nN|A:539 N|G:541(4.22, -0.57, 3.65)\nN|G:540 N|G:541(5.8, -6.13, -0.33)\nN|G:541 N|G:542(5.45, -6.58, -1.14)\nN|G:542 N|U:543(0.69, -5.21, -4.52)\nN|U:543 N|G:544(3.76, -3.69, 0.07)\nN|G:544 N|C:545(-4.47, -5.98, -10.44)\n\n\nStacking pi pairs\n"
+sS"\nHelices: \n1] N|G:500-N|C:504 -> N|G:541-N|C:545\n2] N|C:511-N|G:515 -> N|C:536-N|G:540\n3] N|G:521-N|C:522 -> N|G:527-N|C:528\nHelices vmd:\n1] chain N and resid 500 to 504  chain N and resid 541 to 545\n2] chain N and resid 511 to 515  chain N and resid 536 to 540\n3] chain N and resid 521 to 522  chain N and resid 527 to 528\n\nPseudoknots:\n1] N|G:505-N|C:526\n2] N|G:506-N|C:525\n3] N|C:507-N|G:524\n\nPseudoknots vmd:\n1] chain N and resid  505 526 \n2] chain N and resid  506 525 \n3] chain N and resid  507 524 \n\n\nMotifs:\n1]  0-6  N|C:504-N|G:541-N|G:540-N|C:511-N|A:510-N|A:509-N|U:508-N|C:507-N|G:506-N|G:505-N|C:504-\n2]  7-5  N|G:515-N|C:536-N|A:535-N|U:534-N|A:533-N|A:532-N|U:531-N|G:530-N|G:529-N|C:528-N|G:521-N|A:520-N|C:519-N|C:518-N|G:517-N|U:516-N|G:515-\n3]  4  N|C:522-N|G:527-N|C:526-N|C:525-N|G:524-N|A:523-N|C:522-\n\nMotifs vmd:\n1]  chain N and resid  504 541 540 511 510 509 508 507 506 505 504 \n2]  chain N and resid  515 536 535 534 533 532 531 530 529 528 521 520 519 518 517 516 515 \n3]  chain N and resid  522 527 526 525 524 523 522 \n\n\nWC Base pairs: \n0] N|G:500/N|C:545  N2-H22-O2 angle: 165.03 distance: 2.67  | N1-H1-N3 angle: 164.47 distance: 2.97  | O6-H42-N4 angle: 156.38 distance: 2.98 WC/WC/3  Cis\n1] N|C:501/N|G:544  O2-H21-N2 angle: 166.8 distance: 2.92  | N3-H1-N1 angle: 162.99 distance: 2.92 WC/WC/2  Cis\n2] N|A:502/N|U:543  N6-H61-O4 angle: 160.27 distance: 2.93  | N1-H3-N3 angle: 155.48 distance: 3.4 WC/WC/2  Cis\n3] N|C:503/N|G:542  N4-H41-O6 angle: 166.53 distance: 2.89  | O2-H21-N2 angle: 163.51 distance: 2.71  | N3-H1-N1 angle: 177.66 distance: 2.99 WC/WC/3  Cis\n4] N|C:504/N|G:541  O2-H21-N2 angle: 165.67 distance: 2.88  | N3-H1-N1 angle: 161.86 distance: 2.96 WC/WC/2  Cis\n5] N|G:505/N|C:526  N2-H21-O2 angle: 163.51 distance: 3.06  | N1-H1-N3 angle: 153.27 distance: 2.98  | O6-H41-N4 angle: 163.25 distance: 2.86 WC/WC/3  Cis\n6] N|G:506/N|C:525  N2-H21-O2 angle: 162.97 distance: 2.92  | N1-H1-N3 angle: 154.12 distance: 2.98  | O6-H41-N4 angle: 177.54 distance: 2.77 WC/WC/3  Cis\n7] N|C:507/N|G:524  N4-H41-O6 angle: 153.13 distance: 2.87  | O2-H21-N2 angle: 155.21 distance: 3.17  | N3-H1-N1 angle: 163.82 distance: 2.93 WC/WC/3  Cis\n8] N|C:511/N|G:540  N4-H41-O6 angle: 160.55 distance: 3.17  | N3-H1-N1 angle: 154.61 distance: 2.98 WC/WC/2  Cis\n9] N|U:512/N|A:539  N3-H3-N1 angle: 152.18 distance: 2.92  | O4-H61-N6 angle: 160.16 distance: 3.35 WC/WC/2  Cis\n10] N|C:513/N|G:538  N4-H42-O6 angle: 172.36 distance: 2.88  | O2-H21-N2 angle: 154.53 distance: 3.12  | N3-H1-N1 angle: 169.31 distance: 3.01 WC/WC/3  Cis\n11] N|C:514/N|G:537  O2-H21-N2 angle: 154.54 distance: 3.16  | N3-H1-N1 angle: 162.99 distance: 2.89 WC/WC/2  Cis\n12] N|G:515/N|C:536  N2-H22-O2 angle: 158.04 distance: 2.82  | N1-H1-N3 angle: 160.94 distance: 2.83  | O6-H41-N4 angle: 165.18 distance: 2.78 WC/WC/3  Cis\n13] N|G:521/N|C:528  N2-H21-O2 angle: 166.96 distance: 2.9  | N1-H1-N3 angle: 165.4 distance: 3.08  | O6-H42-N4 angle: 176.22 distance: 2.8 WC/WC/3  Cis\n14] N|C:522/N|G:527  N4-H42-O6 angle: 158.99 distance: 2.73  | O2-H21-N2 angle: 161.26 distance: 2.78  | N3-H1-N1 angle: 165.63 distance: 2.97 WC/WC/3  Cis\n\nnon-WC Base pairs: \n0] N|C:503/N|A:510  O2'-H2'-N1 angle: 161.25 distance: 2.85 Sugar/WC/1  Trans\n1] N|U:508/N|A:509  O2-H62-N6 angle: 157.33 distance: 3.35 WC*Sugar/WC*Hoogsteen/1  Cis\n2] N|A:509/N|U:543  N3-H2'-O2' angle: 158.59 distance: 3.05 Sugar/Sugar/1  Cis\n3] N|A:510/N|G:542  O2'-H2'-N3 angle: 162.65 distance: 3.09  | O2'-H2'-O2' angle: 170.79 distance: 2.82 Sugar/Sugar/2  Cis\n4] N|U:516/N|C:519  O2'-H2'-N3 angle: 151.06 distance: 2.88  | O2-H41-N4 angle: 161.53 distance: 3.09 Sugar/WC/2  Cis\n5] N|U:516/N|A:533  N3-H3-N7 angle: 162.05 distance: 3.03  | O2-H62-N6 angle: 168.13 distance: 3.05 WC/Hoogsteen/2  Trans\n6] N|C:519/N|G:529  N4-H42-O2' angle: 160.12 distance: 3.08 WC*Hoogsteen/Sugar/1  Trans\n7] N|A:520/N|G:529  N6-H62-N3 angle: 158.24 distance: 3.13 WC*Hoogsteen/Sugar/1  Cis\n8] N|A:523/N|G:524  O2'-H2'-N7 angle: 155.23 distance: 3.21 Sugar/Hoogsteen/1  Trans\n9] N|A:523/N|C:525  O2'-H42-N4 angle: 164.6 distance: 3.14 Sugar/WC*Hoogsteen/1  Trans\n10] N|A:523/N|C:526  N3-H42-N4 angle: 156.42 distance: 3.4 Sugar/WC*Hoogsteen/1  Trans\n11] N|G:527/N|A:535  O2'-H2'-N1 angle: 162.96 distance: 2.74 Sugar/WC/1  Trans\n12] N|C:528/N|A:535  O2'-H2'-O2' angle: 155.26 distance: 2.85 Sugar/Sugar/1  Trans\n13] N|A:533/N|A:535  C2-H2-O2' angle: 156.79 distance: 3.41 Sugar/Sugar/1  Trans\n\nDot-Bracket\nGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGC\n(((((......(((((.....((....)).......))))))))))\n Modified nucleotides denoted by lower case letters\n\n\nStacking pairs: qn1 n2     Coul     VDW    sum\nN|G:500 N|C:501(-6.65, -5.67, -12.32)\nN|C:501 N|A:502(6.11, -3.3, 2.81)\nN|C:501 N|C:545(6.44, -2.47, 3.98)\nN|A:502 N|C:503(1.99, -5.77, -3.78)\nN|A:502 N|G:544(-0.16, -5.17, -5.33)\nN|C:503 N|C:504(1.64, -3.74, -2.09)\nN|C:503 N|U:543(1.73, -1.76, -0.03)\nN|C:504 N|A:510(0.79, -0.89, -0.1)\nN|C:504 N|C:511(1.44, -1.76, -0.32)\nN|C:504 N|G:542(2.7, -3.48, -0.77)\nN|G:505 N|G:506(4.46, -5.67, -1.21)\nN|G:505 N|G:527(-1.08, -0.59, -1.67)\nN|G:505 N|A:535(4.25, -7.22, -2.97)\nN|G:506 N|C:507(-4.53, -6.12, -10.65)\nN|G:506 N|C:526(0.17, -3.43, -3.25)\nN|C:507 N|U:508(2.08, -4.16, -2.07)\nN|C:507 N|C:525(5.79, -1.07, 4.72)\nN|A:509 N|A:510(26.46, -5.94, 20.52)\nN|C:511 N|U:512(-0.95, -4.97, -5.92)\nN|C:511 N|G:541(1.3, -3.54, -2.25)\nN|U:512 N|C:513(0.88, -3.65, -2.77)\nN|U:512 N|G:540(1.16, -2.23, -1.07)\nN|C:513 N|C:514(6.89, -4.38, 2.5)\nN|C:513 N|A:539(6.58, -2.72, 3.86)\nN|C:514 N|G:515(-0.44, -3.99, -4.43)\nN|C:514 N|G:538(-3.36, -3.48, -6.84)\nN|G:515 N|U:516(4.54, -6.17, -1.62)\nN|G:515 N|G:537(1.43, -5.84, -4.41)\nN|U:516 N|G:517(0.94, -5.37, -4.43)\nN|U:516 N|A:520(5.6, -0.89, 4.71)\nN|U:516 N|C:536(2.6, -0.57, 2.03)\nN|G:517 N|C:519(-0.3, -0.65, -0.95)\nN|G:517 N|U:531(3.32, -2.58, 0.74)\nN|G:517 N|A:533(2.64, -2.04, 0.6)\nN|C:518 N|G:529(4.47, -4.03, 0.45)\nN|C:518 N|G:530(4.62, -5.18, -0.56)\nN|C:519 N|A:520(1.61, -4.79, -3.18)\nN|A:520 N|G:521(4.05, -4.57, -0.51)\nN|A:520 N|C:536(4.92, -0.52, 4.4)\nN|G:521 N|C:522(-3.25, -6.23, -9.48)\nN|G:521 N|G:529(-2.85, -4.57, -7.43)\nN|C:522 N|A:523(-2.41, -3.49, -5.9)\nN|C:522 N|C:528(9.31, -2.26, 7.05)\nN|A:523 N|G:527(15.23, -6.2, 9.03)\nN|G:524 N|C:525(-6.62, -6.12, -12.74)\nN|C:525 N|C:526(4.52, -3.85, 0.67)\nN|C:526 N|G:527(0.09, -1.73, -1.64)\nN|G:527 N|C:528(-7.59, -5.88, -13.47)\nN|C:528 N|G:529(-2.91, -3.77, -6.68)\nN|A:533 N|C:536(5.91, -5.7, 0.2)\nN|C:536 N|G:537(-1.28, -4.14, -5.41)\nN|G:537 N|G:538(9.23, -6.73, 2.5)\nN|G:538 N|A:539(9.23, -6.29, 2.93)\nN|A:539 N|G:540(10.41, -7.12, 3.29)\nN|A:539 N|G:541(4.22, -0.57, 3.65)\nN|G:540 N|G:541(5.8, -6.13, -0.33)\nN|G:541 N|G:542(5.45, -6.58, -1.14)\nN|G:542 N|U:543(0.69, -5.21, -4.52)\nN|U:543 N|G:544(3.76, -3.69, 0.07)\nN|G:544 N|C:545(-4.47, -5.98, -10.44)\n\n\nStacking pi pairs\n"
 p20570
 tp20571
 sI5
@@ -88463,11 +88463,11 @@ p20599
 I4
 aS' N|A:510 N|G:542'
 p20601
-asS'N|A:535'
+asS'N|G:524'
 p20602
 (lp20603
 I4
-aS' N|G:527 N|C:528 N|A:533'
+aS' N|C:507 N|A:523'
 p20604
 asS'N|C:504'
 p20605
@@ -88567,40 +88567,40 @@ p20649
 I2
 aS' N|G:538'
 p20651
-asS'N|C:511'
+asS'N|U:531'
 p20652
 (lp20653
-I3
-aS' N|G:540'
+I0
+ag47
+asS'N|C:536'
 p20654
-asS'N|U:516'
-p20655
-(lp20656
-I4
-aS' N|C:519 N|A:533'
-p20657
+(lp20655
+I3
+aS' N|G:515 N|G:521'
+p20656
 asS'N|C:518'
-p20658
-(lp20659
+p20657
+(lp20658
 I0
 ag47
 asS'N|C:519'
-p20660
-(lp20661
+p20659
+(lp20660
 I2
 aS' N|U:516'
+p20661
+asS'N|U:516'
 p20662
-asS'N|C:536'
-p20663
-(lp20664
-I3
-aS' N|G:515 N|G:521'
+(lp20663
+I4
+aS' N|C:519 N|A:533'
+p20664
+asS'N|C:511'
 p20665
-asS'N|U:531'
-p20666
-(lp20667
-I0
-ag47
+(lp20666
+I3
+aS' N|G:540'
+p20667
 asS'N|U:512'
 p20668
 (lp20669
@@ -88636,11 +88636,11 @@ p20682
 I5
 aS' N|C:522 N|A:535'
 p20684
-asS'N|G:524'
+asS'N|A:535'
 p20685
 (lp20686
 I4
-aS' N|C:507 N|A:523'
+aS' N|G:527 N|C:528 N|A:533'
 p20687
 asS'N|G:505'
 p20688
@@ -88968,7 +88968,7 @@ aS'H22'
 p20805
 aS'O2'
 p20806
-a(F170.1776210877892
+a(F170.17760558620938
 g19928
 (g19931
 S'Z\xec\x83;\xa7\x1b\x07@'
@@ -88983,7 +88983,7 @@ aS'H1'
 p20813
 aS'N3'
 p20814
-a(F171.08615969082464
+a(F171.08617100998282
 g19928
 (g19931
 S'C\xae1A\xec\xfb\x07@'
@@ -88998,7 +88998,7 @@ aS'H42'
 p20821
 aS'N4'
 p20822
-a(F168.77970825482853
+a(F168.7797527310529
 g19928
 (g19931
 S'\xbd\xcb\n\x8a\xaa\xa1\t@'
@@ -89014,7 +89014,7 @@ aS'H1'
 p20830
 aS'N1'
 p20831
-a(F156.6110429693743
+a(F156.61103306424482
 g19928
 (g19931
 S'\xea:.\xd7d\xa8\t@'
@@ -89030,7 +89030,7 @@ aS'H61'
 p20839
 aS'O4'
 p20840
-a(F153.29905413405467
+a(F153.29904701494897
 g19928
 (g19931
 S'\x93\x1b\x0b\xdat\x8c\x05@'
@@ -89045,7 +89045,7 @@ aS'H3'
 p20847
 aS'N3'
 p20848
-a(F174.78628081425288
+a(F174.78623474754045
 g19928
 (g19931
 S'l\x1a?\x92-\xf2\x08@'
@@ -89061,7 +89061,7 @@ aS'H41'
 p20856
 aS'O6'
 p20857
-a(F164.87800942614834
+a(F164.87800716768314
 g19928
 (g19931
 S'\xbc\x8e+\x8b\xa6\x01\t@'
@@ -89076,7 +89076,7 @@ aS'H21'
 p20864
 aS'N2'
 p20865
-a(F157.51736022201402
+a(F157.51737184634885
 g19928
 (g19931
 S'\xc7\xd0"\x8a\xddM\x07@'
@@ -89091,7 +89091,7 @@ aS'H1'
 p20872
 aS'N1'
 p20873
-a(F170.2775785965995
+a(F170.277544914145
 g19928
 (g19931
 S'\xc5\xa9c\x91\xaej\x07@'
@@ -89107,7 +89107,7 @@ aS'H41'
 p20881
 aS'O6'
 p20882
-a(F173.0522055272685
+a(F173.05219998143596
 g19928
 (g19931
 S'\xff\x01\xaeX\x81\x86\x06@'
@@ -89122,7 +89122,7 @@ aS'H21'
 p20889
 aS'N2'
 p20890
-a(F169.15649748897206
+a(F169.15651962604915
 g19928
 (g19931
 S'\xc6\n\xac\xeb\xe1I\x05@'
@@ -89137,7 +89137,7 @@ aS'H1'
 p20897
 aS'N1'
 p20898
-a(F160.8106103583386
+a(F160.81058853580552
 g19928
 (g19931
 S'\x11\xe8\xa2\x0b^f\x06@'
@@ -89153,7 +89153,7 @@ aS'H21'
 p20906
 aS'O2'
 p20907
-a(F150.47595165894478
+a(F150.47595224606428
 g19928
 (g19931
 S'+H\x02\xb0\x10[\x06@'
@@ -89168,7 +89168,7 @@ aS'H1'
 p20914
 aS'N3'
 p20915
-a(F165.10263104711845
+a(F165.10262476872816
 g19928
 (g19931
 S'\xd9\x98\xa4\xde5\xaf\x06@'
@@ -89183,7 +89183,7 @@ aS'H41'
 p20922
 aS'N4'
 p20923
-a(F170.04355554941037
+a(F170.04361093507205
 g19928
 (g19931
 S'1]\xfd\xf0h\t\x07@'
@@ -89199,7 +89199,7 @@ aS'H1'
 p20931
 aS'N3'
 p20932
-a(F166.18052882801948
+a(F166.1805379027829
 g19928
 (g19931
 S'\x9e\xcd\xb4R\x08\xb3\x07@'
@@ -89214,7 +89214,7 @@ aS'H41'
 p20939
 aS'N4'
 p20940
-a(F167.62833249989743
+a(F167.6283331011505
 g19928
 (g19931
 S'\xa8\x0c\xf3\x02\x89F\x06@'
@@ -89230,7 +89230,7 @@ aS'H41'
 p20948
 aS'O6'
 p20949
-a(F169.27647183988668
+a(F169.27648506863125
 g19928
 (g19931
 S'\xce4G\xe8N\x01\x06@'
@@ -89245,7 +89245,7 @@ aS'H21'
 p20956
 aS'N2'
 p20957
-a(F158.5629330943442
+a(F158.5629372044944
 g19928
 (g19931
 S'\xd9D\x97Q\x90\xad\x08@'
@@ -89260,7 +89260,7 @@ aS'H1'
 p20964
 aS'N1'
 p20965
-a(F175.175723604373
+a(F175.17569213401458
 g19928
 (g19931
 S':\x1e7\x99\x105\x08@'
@@ -89276,7 +89276,7 @@ aS'H41'
 p20973
 aS'O6'
 p20974
-a(F165.01565341562753
+a(F165.0156354794589
 g19928
 (g19931
 S'\xe9\x027\xb1\xd8\x89\n@'
@@ -89291,7 +89291,7 @@ aS'H21'
 p20981
 aS'N2'
 p20982
-a(F153.57331165707808
+a(F153.57332009126
 g19928
 (g19931
 S'\xe2\xcd\xb3\xec\xab\xc7\x06@'
@@ -89306,7 +89306,7 @@ aS'H1'
 p20989
 aS'N1'
 p20990
-a(F163.35616480919344
+a(F163.35615905833424
 g19928
 (g19931
 S'\xdd|\x8f.a\x97\x08@'
@@ -89322,7 +89322,7 @@ aS'H3'
 p20998
 aS'N1'
 p20999
-a(F159.2021333634018
+a(F159.20211996740252
 g19928
 (g19931
 S'\x99\xf18\x19"\xe7\x06@'
@@ -89337,7 +89337,7 @@ aS'H61'
 p21006
 aS'N6'
 p21007
-a(F169.80219897848673
+a(F169.80221838942546
 g19928
 (g19931
 S'\x9akt\x82\xb2U\t@'
@@ -89353,7 +89353,7 @@ aS'H21'
 p21015
 aS'N2'
 p21016
-a(F170.24765438456936
+a(F170.24762868558034
 g19928
 (g19931
 S'u\x87\xe05\x1a\xd1\x08@'
@@ -89368,7 +89368,7 @@ aS'H1'
 p21023
 aS'N1'
 p21024
-a(F167.53325645880633
+a(F167.53327052828226
 g19928
 (g19931
 S'Ea\xac\x0c\xfd\xfd\x07@'
@@ -89384,7 +89384,7 @@ aS'H41'
 p21032
 aS'O6'
 p21033
-a(F170.91725432000084
+a(F170.91720579029504
 g19928
 (g19931
 S'\xf0\x08\xff\xac\xc3\xba\x04@'
@@ -89399,7 +89399,7 @@ aS'H21'
 p21040
 aS'N2'
 p21041
-a(F167.65736215009247
+a(F167.65738872587974
 g19928
 (g19931
 S'\xbe\\\x8b\xbcR\xa4\t@'
@@ -89414,7 +89414,7 @@ aS'H1'
 p21048
 aS'N1'
 p21049
-a(F160.70358171404223
+a(F160.70357313188975
 g19928
 (g19931
 S'\xbc\xbc9$\xf4#\x08@'
@@ -89430,7 +89430,7 @@ aS'H22'
 p21057
 aS'O2'
 p21058
-a(F150.29064397046122
+a(F150.29064921388184
 g19928
 (g19931
 S'm6G\xea\xda[\x07@'
@@ -89445,7 +89445,7 @@ aS'H1'
 p21065
 aS'N3'
 p21066
-a(F153.03306182702192
+a(F153.033052127912
 g19928
 (g19931
 S'\xf0\xb2\xbd\x06\xea+\t@'
@@ -89461,7 +89461,7 @@ aS'H21'
 p21074
 aS'O2'
 p21075
-a(F172.35347712775317
+a(F172.35352627085703
 g19928
 (g19931
 S"\xc3'\x1a\xbb&b\x07@"
@@ -89476,7 +89476,7 @@ aS'H1'
 p21082
 aS'N3'
 p21083
-a(F168.95038842862633
+a(F168.95037085651984
 g19928
 (g19931
 S'.\xe5v\xa3\xe6\xfb\x08@'
@@ -89491,7 +89491,7 @@ aS'H42'
 p21090
 aS'N4'
 p21091
-a(F170.46102652135923
+a(F170.46104477638656
 g19928
 (g19931
 S'gm\xe6z\rs\x08@'
@@ -89507,7 +89507,7 @@ aS'H42'
 p21099
 aS'O6'
 p21100
-a(F151.5094236485769
+a(F151.5094281693789
 g19928
 (g19931
 S'T\xdb\xc1\xde\xd9R\x07@'
@@ -89522,7 +89522,7 @@ aS'H21'
 p21107
 aS'N2'
 p21108
-a(F159.0520200452203
+a(F159.052006069824
 g19928
 (g19931
 S'\x92\xda\x1c\xff\xec\xf1\x06@'
@@ -89537,7 +89537,7 @@ aS'H1'
 p21115
 aS'N1'
 p21116
-a(F160.76439453242295
+a(F160.76438913625955
 g19928
 (g19931
 S'v\x02\xc0\xef\xa2\xdd\x06@'
@@ -89617,7 +89617,7 @@ aS"H2'"
 p21156
 aS'N1'
 p21157
-a(F154.1676581777398
+a(F154.16765583207783
 g19928
 (g19931
 S'N)\x12\x9cNP\x07@'
@@ -89633,7 +89633,7 @@ aS"H2'"
 p21165
 aS'N3'
 p21166
-a(F161.07641934889423
+a(F161.0764194983024
 g19928
 (g19931
 S'\xf1\xd9\x16\xfb)Y\x0b@'
@@ -89649,7 +89649,7 @@ aS"H2'"
 p21174
 aS'N3'
 p21175
-a(F174.02889896502904
+a(F174.02886239123444
 g19928
 (g19931
 S'"?\x80\xfez2\x07@'
@@ -89664,7 +89664,7 @@ aS'H41'
 p21182
 aS'N4'
 p21183
-a(F150.24968713617898
+a(F150.24969539961845
 g19928
 (g19931
 S'\x9fJ\x91\r\xde\xaf\x06@'
@@ -89680,7 +89680,7 @@ aS'H3'
 p21191
 aS'N7'
 p21192
-a(F164.45285661997247
+a(F164.45284155222816
 g19928
 (g19931
 S'\xd1\x13\xb2\\\x96^\x08@'
@@ -89695,7 +89695,7 @@ aS'H62'
 p21199
 aS'N6'
 p21200
-a(F159.14457213054962
+a(F159.14458245383435
 g19928
 (g19931
 S'\xf4)Ssli\n@'
@@ -89711,7 +89711,7 @@ aS'H62'
 p21208
 aS'N3'
 p21209
-a(F175.78472525646146
+a(F175.78471278154794
 g19928
 (g19931
 S'U)\xf4z\xdd\xb8\x08@'
@@ -89726,7 +89726,7 @@ aS'H22'
 p21216
 aS'N2'
 p21217
-a(F161.21153155534859
+a(F161.21152064008527
 g19928
 (g19931
 S'#u\xd4\xd0\x03e\x07@'
@@ -89742,7 +89742,7 @@ aS'H61'
 p21225
 aS'N6'
 p21226
-a(F155.5403464197856
+a(F155.54034627033198
 g19928
 (g19931
 S'\xc3W\x8d\\#\n\x07@'
@@ -89758,7 +89758,7 @@ aS"H2'"
 p21234
 aS"O2'"
 p21235
-a(F154.94810107740145
+a(F154.94810056740016
 g19928
 (g19931
 S'\x0e>y\xf8\x1d\xfd\t@'
@@ -89774,7 +89774,7 @@ aS"H2'"
 p21243
 aS'N7'
 p21244
-a(F151.0071659553274
+a(F151.00716337857284
 g19928
 (g19931
 S'\xabG\xc2\x0eH\xef\x08@'
@@ -89790,7 +89790,7 @@ aS'H42'
 p21252
 aS'N4'
 p21253
-a(F155.631642754426
+a(F155.63163857877836
 g19928
 (g19931
 S'\xec\x82\x83m>>\t@'
@@ -89806,7 +89806,7 @@ aS'H42'
 p21261
 aS'N4'
 p21262
-a(F152.52814665842592
+a(F152.52816454446466
 g19928
 (g19931
 S'\xfa\xdf.\xd3\x94\xc5\x08@'
@@ -89822,7 +89822,7 @@ aS'H22'
 p21270
 aS'N3'
 p21271
-a(F166.9030383284484
+a(F166.9030216528085
 g19928
 (g19931
 S'\xda6t\xdc\x14\xf6\t@'
@@ -89837,7 +89837,7 @@ aS"H2'"
 p21278
 aS'N1'
 p21279
-a(F166.79892491013572
+a(F166.7989295698575
 g19928
 (g19931
 S'\xfa~$\t+7\x08@'
@@ -89853,7 +89853,7 @@ aS"H2'"
 p21287
 aS"O2'"
 p21288
-a(F169.19204712164637
+a(F169.1920639304899
 g19928
 (g19931
 S'z\xb3\x8d\xa1\xa6q\t@'
@@ -89869,7 +89869,7 @@ aS'H2'
 p21296
 aS"O2'"
 p21297
-a(F159.0161952791514
+a(F159.01618855781643
 g19928
 (g19931
 S'\x9a=d\xc0\xce\xd4\t@'

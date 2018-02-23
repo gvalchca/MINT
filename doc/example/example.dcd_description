@@ -1,0 +1,23 @@
+Running with parameters: 
+cutoff=20
+file_name=./example/example.pdb
+vmd=0
+h_bond_l=2.8
+max_memory_GB=1.5
+file_dcd=./example/example.dcd
+id=1
+table_charges=charges_andVDW_DNA.csv
+vdw_cutoff_stacking=-0.5
+number_of_pickles=0
+last_frame=-1
+if_stacking=True
+h_bond_angle=140
+force_field=AMBER
+cutoff_stacking=10.5
+threads=8
+table_nucleotides=nucleotides_doPNA.csv
+time_cutoff=0.02
+first_frame=0
+Single/Traj=Traj
+margin=0.8
+OP_stacking_distance_cutoff=5
